@@ -17,7 +17,7 @@
         <div id="container">
             <div id="header-container">
 
-                <!-- <header id="header-in-scroll">
+                <header id="header-in-scroll" class="hide-header" >
                     <img src="./source/logo.ico" alt="logo" />
                     
                 <ul>
@@ -27,7 +27,7 @@
                     <li><a href="">Kontakt</a></li>
                     <li><a href="">Rezerwuj</a></li>
                 </ul>
-            </header> -->
+            </header>
             <header id="header-initial">
                 <img src="./source/logo.svg" alt="logo" />
                 <ul>
@@ -37,7 +37,6 @@
                     <li><a href="">Kontakt</a></li>
                     <li><a href="">Rezerwuj</a></li>
                 </ul>
-                <span><img src="./source/pagesImg/double-arrow-down.svg"></span>
             </header>
             
         </div>
@@ -60,5 +59,23 @@
             </footer>
         </div>
     </body>
+    <script>
+        const headerInitial = document.getElementById('header-initial');
+        const headerInScroll = document.getElementById('header-in-scroll');
+        console.log(headerInScroll)
 
+        document.addEventListener('scroll', (e) => {
+            console.log(window.scrollY)
+             document.addEventListener('scroll', (e) => {
+            if(window.scrollY > 0) {
+                headerInitial.classList.add('hide-header');
+                headerInScroll.classList.remove('hide-header');
+            }
+            else if(window.scrollY === 0){
+                headerInitial.classList.remove('hide-header');
+                headerInScroll.classList.add('hide-header');
+            }
+        })
+        })
+    </script>
 </html>
