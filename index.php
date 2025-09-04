@@ -57,8 +57,8 @@
 
                 <section class="sekcja sekcja2">
                     <img src="./source/restauracja.jpg"/>
-                    <div>
-                        <p>Hotel floria</p>
+                    <div class="sekcja-opis">
+                        <p><i>Hotel floria</i></p>
                         <h2>Restauracja ze smakiem</h2>
                         <p>Nasza restauracja to połączenie tradycyjnej kuchni z nowoczesnym podejściem do smaków i prezentacji dań. Klimatyczne wnętrza, pełne ciepła i charakteru, tworzą przytulną i wyjątkową atmosferę. Każdy posiłek serwowany jest z dbałością o szczegóły, aby stał się niezapomnianym doświadczeniem. To miejsce, w którym można poczuć ducha dawnych czasów w nowoczesnym wydaniu.</p>
                     </div>
@@ -68,26 +68,26 @@
                     <div>
                         <h3>Andrzej</h3>
                         <p>
-                            „Przepiękne miejsce – pokoje bardzo czyste i przytulne, a obsługa uśmiechnięta i pomocna na każdym kroku
+                            „Przepiękne miejsce – pokoje bardzo czyste i przytulne, a obsługa uśmiechnięta i pomocna na każdym kroku"
                         </p>
                     </div>
                     <div>
                         <h3>Nikodem</h3>
                         <p>
-                            „Świetna lokalizacja, restauracja z pysznym jedzeniem i spokojna atmosfera – idealne miejsce na odpoczynek
+                            „Świetna lokalizacja, restauracja z pysznym jedzeniem i spokojna atmosfera – idealne miejsce na odpoczynek"
                         </p>
                     </div>
                     <div>
                         <h3>Maciek</h3>
                         <p>
-                            „Byliśmy tu całą rodziną i każdy znalazł coś dla siebie – od spa po spacery po okolicy, na pewno wrócimy.
+                            „Byliśmy tu całą rodziną i każdy znalazł coś dla siebie – od spa po spacery po okolicy, na pewno wrócimy.""
                         </p>
                     </div>
                 </section>
 
                 <section class="sekcja sekcja4">
-                    <div>
-                        <p>Hotel floria</p>
+                    <div class="sekcja-opis">
+                        <p><i>Hotel floria</i></p>
                         <h2>Majestatyczne widoki lasu</h2>
                         <p> Tereny wokół hotelu oferują spokojne ścieżki idealne do spacerów, z bujną roślinnością i strumieniem przepływającym tuż obok. Goście mogą cieszyć się świeżym powietrzem i pięknem natury podczas relaksujących przechadzek po okolicznych lasach, podziwiając widoki na góry. To idealne miejsce na ucieczkę od zgiełku miasta i zanurzenie się w naturze.</p>
                     </div>
