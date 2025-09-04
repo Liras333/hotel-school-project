@@ -40,7 +40,8 @@ body {
     display: flex;
     height: 3rem;
     justify-content: space-between;
-    background-color: var(--bgColorGrey1);
+    background-color: var(--bgColorWhite);
+    border-bottom: 1px solid var(--bgColorGrey1);
     transition: all .75s;
     position: fixed;
     top: 0;
@@ -161,6 +162,7 @@ body {
 }
 
 main {
+    color: var(--txtColorDark);
     font-family: "Quicksand", sans-serif;
     width: 75%;
     margin: 0 auto;
@@ -173,12 +175,27 @@ main {
 
 
 
+
+footer {
+    width:100%;
+    height:200px;
+    background-color: rgb(26, 26, 26);
+}
+
+
 @media screen and (max-width:1500px){
     main{
         width:90%;
-        color: var(--txtColorDark);
     }
-
 
 }
 
+
+@media screen and (max-width:500px){
+    main{
+        width:100%;
+    }
+
+    
+
+}

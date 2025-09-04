@@ -53,6 +53,20 @@
     }
 }
 
+.sekcja4 {
+    display:flex;
+    align-items: center;
+
+    div{
+        border:1px solid var(--bgColorGrey2);
+        border-right:none;
+        padding:2rem;
+    }
+    img {
+        width:40rem
+    }
+}
+
 @media screen and (max-width:1500px){
 
     .sekcja2 > img {
@@ -66,4 +80,14 @@
     .sekcja2 {
         flex-direction: column-reverse;
     }
+}
+
+@media screen and (max-width:500px){
+
+
+    .sekcja, .sekcja1 .tekst{
+        padding:.5rem
+    }
+
+
 }
