@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+
 }
 
-body {
-    font-size: 18px;
-}
 
 
 #header-container {
@@ -16,9 +17,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        color: rgb(242, 242, 242);
+        padding-top: 10rem;
+        font-size: 2.5rem;
+        text-shadow: 0 0 5px #111111;
+    }
 }
 
 #header-in-scroll {
@@ -30,6 +40,8 @@ body {
     transition: all .75s;
     position: fixed;
     top: 0;
+    z-index: 1000;
+
 
     & ul {
         display: flex;
@@ -87,6 +99,9 @@ body {
     gap: 2rem;
     padding: 1rem;
     transition: all .5s;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 
     & ul {
         display: flex;
@@ -141,8 +156,30 @@ body {
 }
 
 main {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 65%;
+    font-family: "Quicksand", sans-serif;
+    width: 75%;
     margin: 0 auto;
     padding: 3rem;
+}
+
+section {
+    border: 1px solid #5c5252;
+    padding: 2rem;
+    position: relative;
+
+    .tekst {
+        padding: 2rem;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h2 {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: white;
+        padding: 0 1rem
+    }
 }
