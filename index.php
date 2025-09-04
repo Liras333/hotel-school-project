@@ -28,7 +28,7 @@
                     </nav>
                     </header>
                     
-                    <header id="header-initial"class="hide-header" >
+                    <header id="header-initial" class="" >
                     <img src="./source/logo.svg" alt="logo" />
                     <nav>
                         <ul>
@@ -74,7 +74,7 @@
                     <div>
                         <h3>Nikodem</h3>
                         <p>
-                            „Świetna lokalizacja, restauracja z pysznym jedzeniem i spokojna atmosfera – idealne miejsce na weekendowy odpoczynek
+                            „Świetna lokalizacja, restauracja z pysznym jedzeniem i spokojna atmosfera – idealne miejsce na odpoczynek
                         </p>
                     </div>
                         <div>
