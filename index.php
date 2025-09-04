@@ -17,30 +17,29 @@
         <div id="container">
             <div id="header-container">
 
-                <header id="header-in-scroll" class="hide-header" >
-                    <img src="./source/logo.ico" alt="logo" />
+                <header id="header-in-scroll" class="hide-header">
+                    <img src="./source/logo.svg" alt="logo" />
                     
-                <ul>
-                    <li class="active"><a href="">Hotel</a></li>
-                    <li><a href="">Pokoje</a></li>
-                    <li><a href="">Restauracja</a></li>
-                    <li><a href="">Kontakt</a></li>
-                    <li><a href="">Rezerwuj</a></li>
-                </ul>
-            </header>
-            <header id="header-initial">
-                <img src="./source/logo.svg" alt="logo" />
-                <ul>
-                    <li class="active"><a href="">Hotel</a></li>
-                    <li><a href="">Pokoje</a></li>
-                    <li><a href="">Restauracja</a></li>
-                    <li><a href="">Kontakt</a></li>
-                    <li><a href="">Rezerwuj</a></li>
-                </ul>
-            </header>
-            
-        </div>
-
+                    <ul>
+                        <li class="active"><a href="">Hotel</a></li>
+                        <li><a href="">Pokoje</a></li>
+                        <li><a href="">Restauracja</a></li>
+                        <li><a href="">Kontakt</a></li>
+                        <li><a href="">Rezerwuj</a></li>
+                    </ul>
+                    </header>
+                    
+                    <header id="header-initial">
+                    <img src="./source/logo.svg" alt="logo" />
+                    <ul>
+                        <li class="active"><a href="">Hotel</a></li>
+                        <li><a href="">Pokoje</a></li>
+                        <li><a href="">Restauracja</a></li>
+                        <li><a href="">Kontakt</a></li>
+                        <li><a href="">Rezerwuj</a></li>
+                    </ul>
+                </header>
+            </div>
             
             <nav>
 
@@ -62,10 +61,9 @@
     <script>
         const headerInitial = document.getElementById('header-initial');
         const headerInScroll = document.getElementById('header-in-scroll');
-        console.log(headerInScroll)
+        
 
         document.addEventListener('scroll', (e) => {
-            console.log(window.scrollY)
              document.addEventListener('scroll', (e) => {
             if(window.scrollY > 0) {
                 headerInitial.classList.add('hide-header');
