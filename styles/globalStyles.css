@@ -160,13 +160,26 @@ main {
     width: 75%;
     margin: 0 auto;
     padding: 3rem;
+    line-height: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap:10rem;
 }
 
-section {
-    border: 1px solid #5c5252;
-    padding: 2rem;
+.sekcja {
     position: relative;
+    padding: 2rem 0;
 
+    
+}
+
+.sekcja:not(:first-child){
+    display:flex;
+    gap:3rem;
+}
+
+.sekcja1 {
+    border: 1px solid #a17676;
     .tekst {
         padding: 2rem;
         width: 60%;
@@ -180,6 +193,26 @@ section {
         top: 0;
         transform: translateX(-50%) translateY(-50%);
         background-color: white;
-        padding: 0 1rem
+        padding: 0 2rem
+    }
+}
+
+.sekcja2 {
+    img {
+        width:700px;
+    }
+}
+
+.sekcja3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        background-color: #dfd8d8;
+        width:25rem;
+        padding:1rem;
+        font-style: italic;
+        
     }
 }
