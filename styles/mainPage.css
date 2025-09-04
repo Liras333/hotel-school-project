@@ -1,0 +1,69 @@
+@import url('./rootVariables.css');
+
+.sekcja {
+    padding: 2rem 0;
+    
+}
+
+.sekcja:not(:first-child){
+    display:flex;
+    gap:3rem;
+}
+
+.sekcja1 {
+    border: 1px solid #a17676;
+    position: relative;
+    
+    .tekst {
+        padding: 2rem;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h2 {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: var(--bgColorWhite);
+        padding: 0 2rem
+    }
+}
+
+.sekcja2 {
+    display:flex;
+    align-items: center;
+    img {
+        width:40rem
+    }
+}
+
+.sekcja3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        background-color: var(--bgColorGrey2);
+        width:25rem;
+        padding:1rem;
+        font-style: italic;
+        
+    }
+}
+
+@media screen and (max-width:1500px){
+
+    .sekcja2 > img {
+        width: 30rem
+    }
+}
+
+
+@media screen and (max-width:1000px){
+
+    .sekcja2 {
+        flex-direction: column-reverse;
+    }
+}

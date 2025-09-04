@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta type="description" content="Popularny hotel o różnorodnych pokojach dla każdego" />
         <link rel="stylesheet" href="./styles/globalStyles.css">
+        <link rel="stylesheet" href="./styles/mainPage.css">
         <link rel="icon" href="./source/logo.svg" />
         <title>Hotel Floria</title>
     </head>

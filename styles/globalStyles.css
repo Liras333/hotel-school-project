@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('./rootVariables.css');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
-
 }
 
+body {
+    background-color: var(--bgColorWhite);
+}
 
 
 #header-container {
@@ -36,7 +40,7 @@
     display: flex;
     height: 3rem;
     justify-content: space-between;
-    background-color: rgb(234, 234, 234);
+    background-color: var(--bgColorGrey1);
     transition: all .75s;
     position: fixed;
     top: 0;
@@ -51,7 +55,7 @@
         height: 100%;
 
         a {
-            color: rgb(17, 17, 17);
+            color: var(--txtColorDark);
             text-decoration: none;
         }
 
@@ -105,8 +109,9 @@
 
     & ul {
         display: flex;
-        gap: 2rem;
+        flex-wrap: wrap;
         align-items: center;
+        gap: 2rem;
         list-style: none;
         background-color: #111111d7;
         padding: .7rem 2.5rem;
@@ -166,53 +171,14 @@ main {
     gap:10rem;
 }
 
-.sekcja {
-    position: relative;
-    padding: 2rem 0;
 
-    
-}
 
-.sekcja:not(:first-child){
-    display:flex;
-    gap:3rem;
-}
-
-.sekcja1 {
-    border: 1px solid #a17676;
-    .tekst {
-        padding: 2rem;
-        width: 60%;
-        margin: 0 auto;
-        text-align: center;
+@media screen and (max-width:1500px){
+    main{
+        width:90%;
+        color: var(--txtColorDark);
     }
 
-    h2 {
-        position: absolute;
-        left: 50%;
-        top: 0;
-        transform: translateX(-50%) translateY(-50%);
-        background-color: white;
-        padding: 0 2rem
-    }
+
 }
 
-.sekcja2 {
-    img {
-        width:700px;
-    }
-}
-
-.sekcja3 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-    div {
-        background-color: #dfd8d8;
-        width:25rem;
-        padding:1rem;
-        font-style: italic;
-        
-    }
-}
