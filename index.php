@@ -20,11 +20,11 @@
                     <img src="./source/logo.svg" alt="logo" />
                     <nav>
                         <ul>
-                            <li class="active"><a href="">Hotel</a></li>
-                            <li><a href="">Pokoje</a></li>
-                            <li><a href="">Restauracja</a></li>
-                            <li><a href="">Kontakt</a></li>
-                            <li><a href="">Rezerwuj</a></li>
+                            <li class="active"><a href="./index.php">Hotel</a></li>
+                            <li><a href="./pages/pokoje.php">Pokoje</a></li>
+                            <li><a href="./pages/restauracja.php">Restauracja</a></li>
+                            <li><a href="./pages/kontakt.php">Kontakt</a></li>
+                            <li><a href="./pages/rezerwacja.php">Rezerwuj</a></li>
                         </ul>
                     </nav>
                     </header>
@@ -33,11 +33,11 @@
                     <img src="./source/logo.svg" alt="logo" />
                     <nav>
                         <ul>
-                            <li class="active"><a href="">Hotel</a></li>
-                            <li><a href="">Pokoje</a></li>
-                            <li><a href="">Restauracja</a></li>
-                            <li><a href="">Kontakt</a></li>
-                            <li><a href="">Rezerwuj</a></li>
+                            <li class="active"><a href="./index.php">Hotel</a></li>
+                            <li><a href="./pages/pokoje.php">Pokoje</a></li>
+                            <li><a href="./pages/restauracja.php">Restauracja</a></li>
+                            <li><a href="./pages/kontakt.php">Kontakt</a></li>
+                            <li><a href="./pages/rezerwacja.php">Rezerwuj</a></li>
                         </ul>
                     </nav>
                 </header>
@@ -142,7 +142,32 @@
                 </section>
             </main>
             <footer>
-            </footer>
+                <div>
+                 <ul>
+                    <li><a href="./index.php">Home</a></li>
+                    <li><a href="./pages/pokoje.php">Pokoje</a></li>
+                    <li><a href="./pages/rezerwacja.php">Restauracja</a></li>
+                    <li><a href="./pages/kontakt.php">Kontakt</a></li>
+                    <li><a href="./pages/rezerwacja.php">Rezerwuj</a></li>
+                </ul>
+                </div>
+               
+                <div>
+                    <ul>
+                        
+                        <li><img src="./source/logo.svg" alt="logo"></li>
+                        <li><a href="./pages/regulamin.html">Regulamin</a></li>
+                        <li><a href="./pages/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+
+                    <ul>
+                        <li>Telefon 123 123 123</li>
+                        <li>email@gmail.com</li> 
+                    </ul>
+                </div>
+                </footer>
     </body>
 
     <script src="./scripts/handleHeaders.js"></script>

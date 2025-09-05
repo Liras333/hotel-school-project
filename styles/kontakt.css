@@ -1,0 +1,14 @@
+@import url('./rootVariables.css');
+
+#header-container{
+    background-image: url('../source/recepcja.png');
+}
+
+section{
+    padding:2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}

@@ -1,5 +1,9 @@
 @import url('./rootVariables.css');
 
+#header-container{
+    background-image: url('../source/pagesImg/hotel.jpg');
+}
+
 .sekcja-opis {
     display: flex;
     flex-direction: column;
@@ -230,10 +234,13 @@
 
 @media (max-width:500px) {
 
-
     .sekcja,
     .sekcja1 .tekst {
         padding: .5rem
+    }
+
+    .sekcja3 > div{
+        width:auto
     }
 
 }
