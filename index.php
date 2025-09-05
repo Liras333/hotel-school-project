@@ -163,8 +163,8 @@
                 <div>
 
                     <ul>
-                        <li>Telefon 123 123 123</li>
-                        <li>email@gmail.com</li> 
+                        <li>Telefon 372 291 021</li>
+                        <li>floria@company.com</li> 
                     </ul>
                 </div>
                 </footer>

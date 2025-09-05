@@ -1,5 +1,62 @@
 @import url('./rootVariables.css');
 
 #header-container{
-    background-image: url('../source/pokoje/pokoj-1-osoba-2.png');
+    background-image: url('../source/pokoje/pokoj-1-osoba2.png');
+}
+
+.pokoj{
+    width:400px;
+    height:400px;
+    background-position:center;
+    background-size: cover;
+    transition: all .7s;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    text-decoration: none;
+
+    div {
+        padding:1rem;
+        color:var(--bgColorWhite);
+        transform: translateY(100%);
+        transition: all .7s;
+    }
+    h3{
+        font-size:2rem;
+        padding-bottom: 2rem;
+        line-height: 2rem;
+    }
+
+    &:hover{
+        box-shadow: inset 0 -150px 150px -20px black;
+    }
+    &:hover > div {
+        transform: translateY(0);
+        
+    }
+}
+
+.p1 {background-image: url('../source/pokoje/pokoj-1-osoba1.png');}
+.p2 {background-image: url('../source/pokoje/pokoj-1-osoba2.png');}
+.p3 {background-image: url('../source/pokoje/pokoj-2-osoby1.png');}
+.p4 {background-image: url('../source/pokoje/pokoj-2-osoby2.png');}
+.p5 {background-image: url('../source/pokoje/pokoj-2-osoby3.png');}
+.p6 {background-image: url('../source/pokoje/pokoj-2-osoby4.png');}
+.p7 {background-image: url('../source/pokoje/pokoj-4-osoby1.png');}
+.p8 {background-image: url('../source/pokoje/pokoj-4-osoby2.png');}
+.p9 {background-image: url('../source/pokoje/pokoj-6-osob.png');}
+
+
+h2{
+    grid-column: 1 /-1;
+    text-align: center;
+}
+
+section {
+    width:100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px, 1fr));
+    justify-items: center;
+    gap: 5rem;
 }

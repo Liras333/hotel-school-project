@@ -47,7 +47,81 @@
             </div>
 
             <main>
-             
+                <section>
+                   <h2>Nasze oferty</h2>
+                   <a href="" class="pokoj p1">
+                        <div>
+                            <h3>Pokój 1 osobowy Riva Hiot</h3>
+                            <p>189zł/noc</p>
+                            <p>maks. 1 osoba</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="pokoj p2">
+                        <div>
+                            <h3>Pokój 1 osobowy Maria Rot</h3>
+                            <p>172zł/noc</p>
+                            <p>maks. 1 osoba</p>
+                        </div>
+                    </a>
+                    
+                    <a href="" class="pokoj p3">
+                        <div>
+                            <h3>Pokój 2 osobowy Stardust</h3>
+                            <p>541zł/noc</p>
+                            <p>maks. 2 osoby</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="pokoj p4">
+                        <div>
+                            <h3>Pokój 2 osobowy Vesta Liva</h3>
+                            <p>325zł/noc</p>
+                            <p>maks. 2 osoby</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="pokoj p5">
+                        <div>
+                            <h3>Pokój 2 osobowy Granda Hal</h3>
+                            <p>299zł/noc</p>
+                            <p>maks. 2 osoby</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="pokoj p6">
+                        <div>
+                            <h3>Pokój 2 osobowy Frista Vel</h3>
+                            <p>578zł/noc</p>
+                            <p>maks. 2 osoby</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="pokoj p7">
+                        <div>
+                            <h3>Pokój 4 osobowy Prente Lar</h3>
+                            <p>811zł/noc</p>
+                            <p>maks. 4 osoby</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="pokoj p8">
+                        <div>
+                            <h3>Pokój 4 osobowy Deste Wur</h3>
+                            <p>762zł/noc</p>
+                            <p>maks. 4 osoby</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="pokoj p9">
+                        <div>
+                            <h3>Family Room Jil Fin</h3>
+                            <p>1024zł/noc</p>
+                            <p>maks. 6 osób</p>
+                        </div>
+                    </a>
+
+                </section>
             </main>
             <footer>
                 <div>
@@ -71,8 +145,8 @@
                 <div>
 
                     <ul>
-                        <li>Telefon 123 123 123</li>
-                        <li>email@gmail.com</li> 
+                        <li>Telefon 372 291 021</li>
+                        <li>floria@company.com</li> 
                     </ul>
                 </div>
                 </footer>
