@@ -79,13 +79,12 @@
 
 .sekcja5 {
     width: 100%;
-    height: 400px;
     overflow: hidden;
-
     position: relative;
 
     h2 {
         font-size: 2rem;
+        line-height: 2.5rem;
     }
 
     img {
@@ -145,6 +144,30 @@
     }
 }
 
+.sekcja6 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    button {
+        padding: 1rem 2.5rem;
+        font-size: 1.2rem;
+        background-color: rgb(182, 0, 0);
+        color: var(--bgColorWhite);
+        border: none;
+        border-radius: .3rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(151, 0, 0);
+
+        }
+    }
+}
+
 @keyframes show-div {
     0% {
         opacity: .4;
@@ -163,17 +186,46 @@
 
 @media (max-width:1500px) {
 
-    .sekcja2>img {
+    .sekcja2>img,
+    .sekcja4 img,
+    .sekcja5 img {
         width: 30rem
     }
 }
 
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
 
-    .sekcja2 {
+
+    .sekcja img {
+        width: 20rem
+    }
+
+    .sekcja2,
+    .sekcja3 {
         flex-direction: column-reverse;
     }
+
+    .sekcja4 {
+        flex-direction: column;
+
+        div {
+            border: 1px solid var(--bgColorGrey2);
+            border-bottom: none;
+        }
+    }
+
+    .sekcja5 {
+        flex-direction: column;
+
+
+
+        .sekcja-slider>.show-div {
+            flex-direction: column;
+        }
+
+    }
+
 }
 
 @media (max-width:500px) {
@@ -183,6 +235,5 @@
     .sekcja1 .tekst {
         padding: .5rem
     }
-
 
 }
