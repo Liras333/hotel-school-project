@@ -1,25 +1,25 @@
 @import url('./rootVariables.css');
 
-.sekcja-opis{
+.sekcja-opis {
     display: flex;
     flex-direction: column;
-    gap:1rem
+    gap: 1rem
 }
 
 .sekcja {
     padding: 2rem 0;
-    
+
 }
 
-.sekcja:not(:first-child){
-    display:flex;
-    gap:3rem;
+.sekcja:not(:first-child) {
+    display: flex;
+    gap: 3rem;
 }
 
 .sekcja1 {
     border: 1px solid #a17676;
     position: relative;
-    
+
     .tekst {
         padding: 2rem;
         width: 60%;
@@ -38,61 +38,150 @@
 }
 
 .sekcja2 {
-    display:flex;
+    display: flex;
     align-items: center;
+
     img {
-        width:40rem
+        width: 40rem
     }
 }
 
 .sekcja3 {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 
     div {
         background-color: var(--bgColorGrey2);
-        width:25rem;
-        padding:1rem;
+        width: 25rem;
+        padding: 1rem;
         font-style: italic;
-        
+
     }
 }
 
 .sekcja4 {
-    display:flex;
+    display: flex;
     align-items: center;
 
-    div{
-        border:1px solid var(--bgColorGrey2);
-        border-right:none;
-        padding:2rem;
+    div {
+        border: 1px solid var(--bgColorGrey2);
+        border-right: none;
+        padding: 2rem;
     }
+
     img {
-        width:40rem
+        width: 40rem
     }
 }
 
-@media screen and (max-width:1500px){
 
-    .sekcja2 > img {
+
+.sekcja5 {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+    position: relative;
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 30rem;
+    }
+
+
+    .sekcja-slider {
+        gap: 1rem;
+        display: flex;
+        flex-direction: row;
+
+        >div {
+            display: none;
+            gap: 1rem;
+            align-items: center;
+            animation: show-div 1s ease;
+
+            >div {
+
+                padding: 0 2rem;
+                border-left: 1px solid var(--bgColorGrey2);
+            }
+        }
+
+        .show-div {
+            display: flex;
+        }
+    }
+
+    .arrows {
+        position: absolute;
+        right: 1rem;
+
+        transform: translateY(50%);
+        display: flex;
+        gap: 1rem;
+
+
+
+        div {
+
+            background-color: rgba(67, 34, 34, 0.85);
+            color: white;
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color .2s;
+
+            &:hover {
+                background-color: rgb(67, 34, 34);
+            }
+        }
+    }
+}
+
+@keyframes show-div {
+    0% {
+        opacity: .4;
+        transform: translateX(80%)
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+
+/*  MEDIA QUERIES */
+
+
+
+@media (max-width:1500px) {
+
+    .sekcja2>img {
         width: 30rem
     }
 }
 
 
-@media screen and (max-width:1000px){
+@media (max-width:1000px) {
 
     .sekcja2 {
         flex-direction: column-reverse;
     }
 }
 
-@media screen and (max-width:500px){
+@media (max-width:500px) {
 
 
-    .sekcja, .sekcja1 .tekst{
-        padding:.5rem
+    .sekcja,
+    .sekcja1 .tekst {
+        padding: .5rem
     }
 
 

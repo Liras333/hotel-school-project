@@ -93,9 +93,82 @@
                     </div>
                     <img src="./source/hotelViewForest.png"/>
                 </section>
+
+                 <section class="sekcja sekcja5">
+                    <h2>Dlaczego my?</h2>
+                    <div class="sekcja-slider">
+                        <div class="show-div">
+                            <div>
+                                <h3>Gościnność z tradycją</h3>
+                                <p>
+                                    W Hotelu Floria stawiamy na autentyczną atmosferę i indywidualne podejście do każdego gościa. Ciepłe wnętrza i gościnność sprawiają, że każdy pobyt staje się wyjątkowym doświadczeniem.
+                                </p>
+                            </div>
+                            <img src="./source/hotelViewForest.png"/>
+                        </div>
+
+                        <div class="">
+                            <div>
+                                <h3>Komfort na najwyższym poziomie</h3>
+                                <p>
+                                    Połączenie tradycyjnego klimatu z nowoczesnymi udogodnieniami gwarantuje wygodę zarówno w podróży prywatnej, jak i służbowej. Dbamy o każdy detal, by zapewnić pełen relaks.
+                                </p>
+                            </div>
+                              <img src="./source/hotelViewForest.png"/>
+                        </div>
+
+                        <div class="">
+                            <div>
+                                <h3>Wyjątkowa lokalizacja i atmosfera</h3>
+                                <p>
+                                    Hotel Floria to nie tylko miejsce noclegu, ale przestrzeń, w której można poczuć ducha dawnych czasów. To idealne otoczenie dla osób szukających spokoju, inspiracji i niepowtarzalnego klimatu.
+                                </p>
+                            </div>
+                              <img src="./source/hotelViewForest.png"/>
+                        </div>
+                    </div>
+                    <div class="arrows">
+                        <div class="prev"><</div>
+                        <div class="next">></div>
+                    </div>
+                </section>
             </main>
             <footer>
             </footer>
     </body>
     <script src="./scripts/handleHeaders.js"></script>
+    <script>
+
+        
+        const sekcja5 = document.querySelectorAll('.sekcja-slider > div');
+        const prev = document.querySelector('.prev')
+        const next = document.querySelector('.next')
+
+        let index = 0;
+        prev.addEventListener('click', () => {
+            index--;
+
+            if(index === -1) index = 2;
+
+            sekcja5.forEach((div,i)=> {
+
+                if(i === index) div.classList.add('show-div');
+                else div.classList.remove('show-div')
+            })
+        })
+
+         next.addEventListener('click', () => {
+            index++;
+            if(index === 3) index = 0;
+            
+            sekcja5.forEach((div,i)=> {
+                console.log(i,index)
+                
+                if(i === index) div.classList.add('show-div');
+                else div.classList.remove('show-div')
+            })
+        })
+
+
+    </script>
 </html>
