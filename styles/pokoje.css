@@ -1,0 +1,5 @@
+@import url('./rootVariables.css');
+
+#header-container{
+    background-image: url('../source/pokoje/pokoj-1-osoba-2.png');
+}

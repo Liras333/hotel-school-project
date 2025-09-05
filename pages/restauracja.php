@@ -22,8 +22,8 @@
                         <ul>
                             <li><a href="../index.php">Hotel</a></li>
                             <li><a href="./pokoje.php">Pokoje</a></li>
-                            <li><a href="./restauracja.php">Restauracja</a></li>
-                            <li class="active"><a href="./kontakt.php">Kontakt</a></li>
+                            <li class="active"><a href="./restauracja.php">Restauracja</a></li>
+                            <li><a href="./kontakt.php">Kontakt</a></li>
                             <li><a href="./rezerwacja.php">Rezerwuj</a></li>
                         </ul>
                     </nav>
@@ -35,20 +35,76 @@
                         <ul>
                             <li ><a href="../index.php">Hotel</a></li>
                             <li><a href="./pokoje.php">Pokoje</a></li>
-                            <li><a href="./restauracja.php">Restauracja</a></li>
-                            <li class="active"><a href="./kontakt.php">Kontakt</a></li>
+                            <li class="active"><a href="./restauracja.php">Restauracja</a></li>
+                            <li><a href="./kontakt.php">Kontakt</a></li>
                             <li><a href="./rezerwacja.php">Rezerwuj</a></li>
                         </ul>
                     </nav>
                 </header>
                     <h1>
-                        Kontakt z nami
+                        Stylowa restauracja w Floria
                     </h1>
             </div>
 
             <main>
-                
+                <section class="sekcja sekcja1">
+                    <h2>Nasza restauracja</h2>
+                    <p class="tekst">
+                        Nasza restauracja to miejsce, gdzie tradycyjne smaki spotykają się z nowoczesnym podejściem do gotowania. Ciepłe i przyjazne wnętrza sprawiają, że można poczuć się tu swobodnie i wyjątkowo. Każde danie przygotowujemy starannie, dbając o to, by było nie tylko smaczne, ale i pięknie podane. To przestrzeń, w której łączymy dawny klimat z nowoczesnym stylem, tworząc niezapomniane doświadczenie dla naszych gości.
+                    </p>
+                </section>
+
+                <section class="sekcja sekcja2">
+                    <img src="../source/restauracja.jpg"/>
+                    <div class="sekcja-opis">
+                        <h2>Dwa style w jednym</h2>
+                        <p>
+                           Nasza restauracja hotelowa łączy tradycyjną kuchnię z nowoczesnym podejściem do smaków. Przytulne wnętrza tworzą atmosferę idealną zarówno na spokojny posiłek, jak i spotkanie w gronie bliskich.
+                        </p>
+                        <p>
+                           Nasze potrawy powstają na bazie starodawnych przepisów, które zyskały nowoczesne oblicze. Łączymy tradycyjne smaki z lekką, współczesną formą podania, tworząc dania pełne charakteru i wyjątkowego aromatu. To kuchnia, która łączy to, co znane i lubiane, z nutą świeżości i nowoczesnego stylu.
+                        </p>
+                    </div>
+                </section>
+                <section class="sekcja sekcja3">
+                    <h2>Co serwujemy?</h2>
+                    <div class="book">
+                        <ul>
+                            <h3>Przystawki</h3>
+                            <li>Tatar wołowy z klasycznymi dodatkami w nowoczesnej formie</li>
+                            <li>Śledź w oleju z jabłkiem i chrzanem, podany na chrupiącej grzance</li>
+                            <li>Pasztet domowy z żurawiną i konfiturą z cebuli</li>
+                            <li>Carpaccio z buraka z kozim serem i orzechami włoskimi</li>
+                            <li>Żurek podany w mini chlebku jako starter</li>
+                        </ul>
+                        <ul>
+                            <h3>Zupy</h3>
+                            <li>Rosół z domowym makaronem, serwowany w eleganckim bulionerze</li>
+                            <li>Krem z pieczonej dyni z nutą imbiru i prażonymi pestkami</li>
+                            <li>Barszcz czerwony na zakwasie z pierożkami z mięsem lub grzybami</li>
+                        </ul>
+                        <ul>
+                            <h3>Dania główne</h3>
+                            <li>Pierogi z różnymi farszami (ruskie, z grzybami, z szpinakiem) w finezyjnej formie podania</li>
+                            <li>Pieczeń wieprzowa z sosem śliwkowym i kopytkami</li>
+                            <li>Gęś pieczona z modrą kapustą i kluskami śląskimi</li>
+                            <li>Sandacz smażony na maśle z puree z selera i chipsami warzywnymi</li>
+                            <li>Polędwica wołowa z sosem borowikowym i ziemniakami gratin</li>
+                            <li>Kaczka confit z jabłkami i sosem żurawinowym</li>
+                        </ul>
+                        <ul>
+                            <h3>Desery</h3>
+                            <li>Sernik tradycyjny w lekkiej, nowoczesnej odsłonie</li>
+                            <li>Szarlotka z lodami waniliowymi i sosem karmelowym</li>
+                            <li>Piernik z musem śmietanowym i konfiturą śliwkową</li>
+                            <li>Lody rzemieślnicze z dodatkiem sezonowych owoców</li>
+                            <li>Panna cotta inspirowana mlekiem z miodem i makiem</li>
+                            <li>Deser z kaszy manny na styl nowoczesny z owocowym musem</li>
+                        </ul>
+                    </div>
+                </section>
             </main>
+
             <footer>
                 <div>
                  <ul>
