@@ -49,7 +49,7 @@
             <main>
                 <section>
                    <h2>Nasze oferty</h2>
-                   <a href="" class="pokoj p1">
+                   <a href="./pokoje/p-1-osoba1.php" class="pokoj p1">
                         <div>
                             <h3>Pokój 1 osobowy Riva Hiot</h3>
                             <p>189zł/noc</p>

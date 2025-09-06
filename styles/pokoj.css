@@ -1,0 +1,75 @@
+@import url('./rootVariables.css');
+
+
+div#header-container {
+    height:500px;
+    background-repeat: no-repeat;
+    background-size:50%;
+    position:relative
+}
+
+.sekcja{
+    width:40rem;
+    line-height: 2rem;
+    margin:0 auto;
+    padding: 2rem;
+    transform: translateY(-80px);
+    background-color: var(--bgColorWhite);
+
+    > div {
+    padding-bottom: 2rem;
+
+    }
+}
+
+.informacje1{
+    display: flex;
+    justify-content: space-between;
+
+
+     button {
+        padding: .7rem 2rem;
+        font-size: 1.2rem;
+        background-color: rgb(182, 0, 0);
+        color: var(--bgColorWhite);
+        border: none;
+        border-radius: .3rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(151, 0, 0);
+
+        }
+    }
+}
+
+.informacje3  {
+    
+    ul {
+        list-style-image: url('../source/check-icon.png');
+    }
+}
+
+
+
+.cena {
+    font-size:2.2rem;
+}
+
+.back{
+    color: var(--bgColorWhite);
+    background-color: #201f1f;
+    padding:.5rem;
+    border:none;
+    cursor: pointer;
+    opacity: .8;
+    position:absolute;
+    top:5rem;
+    left:50%;
+    transform: translateX(-100%);
+    transition: opacity .3s;
+
+    &:hover{
+        opacity: 1
+    }
+}

@@ -19,7 +19,6 @@ const interval = setInterval(()=>{
 
 // eventy przycisków slidera
 prev.addEventListener('click', () => {
-    window.clearInterval(interval);
     index--;
 
     if (index === -1) index = 2;
@@ -31,7 +30,6 @@ prev.addEventListener('click', () => {
 })
 
 next.addEventListener('click', () => {
-    window.clearInterval(interval);
 
     index++;
     if (index === 3) index = 0;
