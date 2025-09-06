@@ -11,7 +11,7 @@
         <title>Hotel Floria</title>
         <style>
             #header-container {
-                background-image: url('../../source/pokoje/pokoj-1-osoba1.png')
+                background-image: url('../../source/pokoje/pokoj-6-osob.png')
             }
         </style>
     </head>
@@ -31,7 +31,7 @@
                     </header>
                     <a href="../pokoje.php"><button class="back">&larr; Powrót</button></a>
                     <h1>
-                       Pokój 1 osobowy Riva Hiot
+                       Pokój 6 osobowy Jil Fin
                     </h1>
             </div>
 
@@ -39,27 +39,30 @@
                 <section class="sekcja sekcja1">
                         <div class="informacje1">
                             <div>
-                                <p class="cena">179zł/noc</p>
-                                <p class="osoby">maks. 1 osoba</p>
+                                <p class="cena">1024zł/noc</p>
+                                <p class="osoby">maks. 6 osoby</p>
                             </div>
                             <div>
                                 <a href="../rezerwacja.php"><button>Zarezerwuj</button></a>
                             </div>
                         </div>
                         <div class="informacje3">
-                            <h3>Riva Hiot</h3>
-                            <p>Pokój hotelowy urządzony jest w rustykalnym stylu, z kamiennymi ścianami i drewnianym sufitem z widocznymi belkami, co nadaje mu przytulny i naturalny charakter. Wnętrze wyposażono w drewniane łóżko z prostą pościelą i kolorowymi poduszkami, biurko z krzesłem oraz niewielki stolik nocny z designerską lampką. Całość uzupełnia okno wpuszczające naturalne światło oraz delikatne oświetlenie ścienne i sufitowe, tworzące ciepłą atmosferę.</p>
+                            <h3>Jil Fin - Family Room</h3>
+                            <p>Ten przestronny pokój hotelowy to idealne miejsce dla większej grupy lub rodziny. Połączenie kamiennych ścian i surowego drewna nadaje mu rustykalny, a zarazem luksusowy charakter. Znajduje się tu duże, podwójne łóżko, jak również cztery pojedyncze, co zapewnia wygodę dla wielu osób. W centrum pokoju stoi duży stół jadalniany, a w części dziennej umieszczono telewizor i aneks kuchenny. Całość jest stylowo urządzona z dużą dbałością o detale, a światło wpadające przez okno sprawia, że wnętrze jest jasne i przytulne.</p>
                         </div>
                         <div class="informacje3">
                             <ul>
-                                <li>łóżko</li>
-                                <li>biurko i krzesło</li>
-                                <li>Widoki</li>
+                                <li>Podwójne łóżko</li>
+                                <li>Pojedyncze łózka x4 (możliwość połączenia)</li>
+                                <li>Stół jadalny</li>
+                                <li>Telewizor</li>                                
+                                <li>Widok</li>
                                 <li>Klimat</li>
-                                <li>Szafa</li>
-                                <li>Osobna łazienka</li>
+                                <li>Szafy</li>
+                                <li>Osobna łazienka x2</li>
+                                <li>Kuchnia</li>
                                 <li>Mini bar</li>
-                                <li>bezpłatne Wi-Fi</li>
+                                <li>Bezpłatne Wi-Fi</li>
                                 <li>Sejf</li>
                             </ul>
                         </div>

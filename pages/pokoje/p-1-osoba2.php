@@ -11,7 +11,7 @@
         <title>Hotel Floria</title>
         <style>
             #header-container {
-                background-image: url('../../source/pokoje/pokoj-1-osoba1.png')
+                background-image: url('../../source/pokoje/pokoj-1-osoba2.png')
             }
         </style>
     </head>
@@ -31,7 +31,7 @@
                     </header>
                     <a href="../pokoje.php"><button class="back">&larr; Powrót</button></a>
                     <h1>
-                       Pokój 1 osobowy Riva Hiot
+                       Pokój 1 osobowy Maria Rot
                     </h1>
             </div>
 
@@ -39,7 +39,7 @@
                 <section class="sekcja sekcja1">
                         <div class="informacje1">
                             <div>
-                                <p class="cena">179zł/noc</p>
+                                <p class="cena">242zł/noc</p>
                                 <p class="osoby">maks. 1 osoba</p>
                             </div>
                             <div>
@@ -47,20 +47,22 @@
                             </div>
                         </div>
                         <div class="informacje3">
-                            <h3>Riva Hiot</h3>
-                            <p>Pokój hotelowy urządzony jest w rustykalnym stylu, z kamiennymi ścianami i drewnianym sufitem z widocznymi belkami, co nadaje mu przytulny i naturalny charakter. Wnętrze wyposażono w drewniane łóżko z prostą pościelą i kolorowymi poduszkami, biurko z krzesłem oraz niewielki stolik nocny z designerską lampką. Całość uzupełnia okno wpuszczające naturalne światło oraz delikatne oświetlenie ścienne i sufitowe, tworzące ciepłą atmosferę.</p>
+                            <h3>Maria Rot</h3>
+                            <p>To przytulny pokój o unikalnym charakterze, łączący nowoczesny minimalizm z klimatem historycznych wnętrz. Kamienne ściany, kominek i ozdobne tkaniny tworzą wyjątkową atmosferę sprzyjającą wypoczynkowi. Duże okno z widokiem oraz starannie dobrane meble dodają elegancji i komfortu.</p>
                         </div>
                         <div class="informacje3">
                             <ul>
-                                <li>łóżko</li>
-                                <li>biurko i krzesło</li>
+                                <li>Łóżko</li>
+                                <li>Stół</li>
+                                <li>Stoliczek i krzesło</li>
                                 <li>Widoki</li>
                                 <li>Klimat</li>
                                 <li>Szafa</li>
                                 <li>Osobna łazienka</li>
                                 <li>Mini bar</li>
-                                <li>bezpłatne Wi-Fi</li>
+                                <li>Bezpłatne Wi-Fi</li>
                                 <li>Sejf</li>
+                                <li>Kominek</li>
                             </ul>
                         </div>
                 </section>

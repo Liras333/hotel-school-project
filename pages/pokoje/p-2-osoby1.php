@@ -11,7 +11,7 @@
         <title>Hotel Floria</title>
         <style>
             #header-container {
-                background-image: url('../../source/pokoje/pokoj-1-osoba1.png')
+                background-image: url('../../source/pokoje/pokoj-2-osoby1.png')
             }
         </style>
     </head>
@@ -31,7 +31,7 @@
                     </header>
                     <a href="../pokoje.php"><button class="back">&larr; Powrót</button></a>
                     <h1>
-                       Pokój 1 osobowy Riva Hiot
+                       Pokój 2 osobowy Stardust
                     </h1>
             </div>
 
@@ -39,27 +39,30 @@
                 <section class="sekcja sekcja1">
                         <div class="informacje1">
                             <div>
-                                <p class="cena">179zł/noc</p>
-                                <p class="osoby">maks. 1 osoba</p>
+                                <p class="cena">541zł/noc</p>
+                                <p class="osoby">maks. 2 osoby</p>
                             </div>
                             <div>
                                 <a href="../rezerwacja.php"><button>Zarezerwuj</button></a>
                             </div>
                         </div>
                         <div class="informacje3">
-                            <h3>Riva Hiot</h3>
-                            <p>Pokój hotelowy urządzony jest w rustykalnym stylu, z kamiennymi ścianami i drewnianym sufitem z widocznymi belkami, co nadaje mu przytulny i naturalny charakter. Wnętrze wyposażono w drewniane łóżko z prostą pościelą i kolorowymi poduszkami, biurko z krzesłem oraz niewielki stolik nocny z designerską lampką. Całość uzupełnia okno wpuszczające naturalne światło oraz delikatne oświetlenie ścienne i sufitowe, tworzące ciepłą atmosferę.</p>
+                            <h3>Stardust</h3>
+                            <p>Ten elegancki pokój łączy historyczny klimat z nowoczesnymi udogodnieniami. Kamienne ściany i odsłonięte drewniane belki nadają wnętrzu wyjątkowego charakteru, a z okna roztacza się malowniczy widok na zabytkowe miasto. Wygodne łóżko z baldachimem, miękki fotel i starannie dobrane oświetlenie zapewniają pełen komfort wypoczynku. Dodatkowym atutem jest nowoczesne wyposażenie multimedialne i biurko do pracy, co czyni pokój idealnym zarówno do relaksu, jak i obowiązków.</p>
                         </div>
                         <div class="informacje3">
                             <ul>
-                                <li>łóżko</li>
-                                <li>biurko i krzesło</li>
+                                <li>Podwójne łóżko</li>
+                                <li>Stoliczek</li>
+                                <li>Biurko</li>
+                                <li>Laptop</li>
+                                <li>Telewizor</li>
                                 <li>Widoki</li>
                                 <li>Klimat</li>
                                 <li>Szafa</li>
                                 <li>Osobna łazienka</li>
                                 <li>Mini bar</li>
-                                <li>bezpłatne Wi-Fi</li>
+                                <li>Bezpłatne Wi-Fi</li>
                                 <li>Sejf</li>
                             </ul>
                         </div>

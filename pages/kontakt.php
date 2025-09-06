@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="pl">
     <head>
@@ -60,7 +56,7 @@
                  <ul>
                     <li><a href="../index.php">Home</a></li>
                     <li><a href="./pokoje.php">Pokoje</a></li>
-                    <li><a href="./rezerwacja.php">Restauracja</a></li>
+                    <li><a href="./restauracja.php">Restauracja</a></li>
                     <li><a href="./kontakt.php">Kontakt</a></li>
                     <li><a href="./rezerwacja.php">Rezerwuj</a></li>
                 </ul>
@@ -79,6 +75,7 @@
                     <ul>
                         <li>Telefon 372 291 021</li>
                         <li>floria@company.com</li> 
+                        <li>Autor: Patryk Migała</li>
                     </ul>
                 </div>
                 </footer>

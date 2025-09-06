@@ -47,6 +47,7 @@ div#header-container {
     
     ul {
         list-style-image: url('../source/check-icon.png');
+        padding-left: 1rem;
     }
 }
 

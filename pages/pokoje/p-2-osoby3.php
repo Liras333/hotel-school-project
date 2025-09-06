@@ -11,7 +11,7 @@
         <title>Hotel Floria</title>
         <style>
             #header-container {
-                background-image: url('../../source/pokoje/pokoj-1-osoba1.png')
+                background-image: url('../../source/pokoje/pokoj-2-osoby3.png')
             }
         </style>
     </head>
@@ -31,7 +31,7 @@
                     </header>
                     <a href="../pokoje.php"><button class="back">&larr; Powrót</button></a>
                     <h1>
-                       Pokój 1 osobowy Riva Hiot
+                       Pokój 2 osobowy Granda Hal
                     </h1>
             </div>
 
@@ -39,27 +39,29 @@
                 <section class="sekcja sekcja1">
                         <div class="informacje1">
                             <div>
-                                <p class="cena">179zł/noc</p>
-                                <p class="osoby">maks. 1 osoba</p>
+                                <p class="cena">299zł/noc</p>
+                                <p class="osoby">maks. 2 osoby</p>
                             </div>
                             <div>
                                 <a href="../rezerwacja.php"><button>Zarezerwuj</button></a>
                             </div>
                         </div>
                         <div class="informacje3">
-                            <h3>Riva Hiot</h3>
-                            <p>Pokój hotelowy urządzony jest w rustykalnym stylu, z kamiennymi ścianami i drewnianym sufitem z widocznymi belkami, co nadaje mu przytulny i naturalny charakter. Wnętrze wyposażono w drewniane łóżko z prostą pościelą i kolorowymi poduszkami, biurko z krzesłem oraz niewielki stolik nocny z designerską lampką. Całość uzupełnia okno wpuszczające naturalne światło oraz delikatne oświetlenie ścienne i sufitowe, tworzące ciepłą atmosferę.</p>
+                            <h3>Granda Hal</h3>
+                            <p> Zbudowany jest z kamienia, a na suficie widać ciężkie drewniane belki, które nadają mu rustykalnego charakteru. Pośrodku pokoju stoi duże, wygodne łóżko z białymi poduszkami, a obok niego, na stoliku, położone są książki, co zachęca do relaksu. W rogu pokoju znajduje się zielony, pluszowy fotel, który dodaje wnętrzu przytulności i jest świetnym miejscem do odpoczynku.</p>
                         </div>
                         <div class="informacje3">
                             <ul>
-                                <li>łóżko</li>
-                                <li>biurko i krzesło</li>
-                                <li>Widoki</li>
+                                <li>Podwójne łóżko</li>
+                                <li>Stoliczek</li>
+                                <li>Biurko</li>
+                                <li>Telewizor</li>
+                                <li>Widok</li>
                                 <li>Klimat</li>
                                 <li>Szafa</li>
                                 <li>Osobna łazienka</li>
                                 <li>Mini bar</li>
-                                <li>bezpłatne Wi-Fi</li>
+                                <li>Bezpłatne Wi-Fi</li>
                                 <li>Sejf</li>
                             </ul>
                         </div>

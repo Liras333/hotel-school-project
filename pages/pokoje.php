@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="pl">
     <head>
@@ -52,20 +48,20 @@
                    <a href="./pokoje/p-1-osoba1.php" class="pokoj p1">
                         <div>
                             <h3>Pokój 1 osobowy Riva Hiot</h3>
-                            <p>189zł/noc</p>
+                            <p>179zł/noc</p>
                             <p>maks. 1 osoba</p>
                         </div>
                     </a>
 
-                    <a href="" class="pokoj p2">
+                    <a href="./pokoje/p-1-osoba2.php" class="pokoj p2">
                         <div>
                             <h3>Pokój 1 osobowy Maria Rot</h3>
-                            <p>172zł/noc</p>
+                            <p>242zł/noc</p>
                             <p>maks. 1 osoba</p>
                         </div>
                     </a>
                     
-                    <a href="" class="pokoj p3">
+                    <a href="./pokoje/p-2-osoby1.php" class="pokoj p3">
                         <div>
                             <h3>Pokój 2 osobowy Stardust</h3>
                             <p>541zł/noc</p>
@@ -73,15 +69,15 @@
                         </div>
                     </a>
 
-                    <a href="" class="pokoj p4">
+                    <a href="./pokoje/p-2-osoby2.php" class="pokoj p4">
                         <div>
                             <h3>Pokój 2 osobowy Vesta Liva</h3>
-                            <p>325zł/noc</p>
+                            <p>345zł/noc</p>
                             <p>maks. 2 osoby</p>
                         </div>
                     </a>
 
-                    <a href="" class="pokoj p5">
+                    <a href="./pokoje/p-2-osoby3.php" class="pokoj p5">
                         <div>
                             <h3>Pokój 2 osobowy Granda Hal</h3>
                             <p>299zł/noc</p>
@@ -89,15 +85,15 @@
                         </div>
                     </a>
 
-                    <a href="" class="pokoj p6">
+                    <a href="./pokoje/p-2-osoby4.php" class="pokoj p6">
                         <div>
                             <h3>Pokój 2 osobowy Frista Vel</h3>
-                            <p>578zł/noc</p>
+                            <p>378zł/noc</p>
                             <p>maks. 2 osoby</p>
                         </div>
                     </a>
 
-                    <a href="" class="pokoj p7">
+                    <a href="./pokoje/p-4-osoby1.php" class="pokoj p7">
                         <div>
                             <h3>Pokój 4 osobowy Prente Lar</h3>
                             <p>811zł/noc</p>
@@ -105,7 +101,7 @@
                         </div>
                     </a>
 
-                    <a href="" class="pokoj p8">
+                    <a href="./pokoje/p-4-osoby2.php" class="pokoj p8">
                         <div>
                             <h3>Pokój 4 osobowy Deste Wur</h3>
                             <p>762zł/noc</p>
@@ -113,7 +109,7 @@
                         </div>
                     </a>
 
-                    <a href="" class="pokoj p9">
+                    <a href="./pokoje/p-6-osob.php" class="pokoj p9">
                         <div>
                             <h3>Family Room Jil Fin</h3>
                             <p>1024zł/noc</p>
@@ -128,7 +124,7 @@
                  <ul>
                     <li><a href="../index.php">Home</a></li>
                     <li><a href="./pokoje.php">Pokoje</a></li>
-                    <li><a href="./rezerwacja.php">Restauracja</a></li>
+                    <li><a href="./restauracja.php">Restauracja</a></li>
                     <li><a href="./kontakt.php">Kontakt</a></li>
                     <li><a href="./rezerwacja.php">Rezerwuj</a></li>
                 </ul>
@@ -147,6 +143,7 @@
                     <ul>
                         <li>Telefon 372 291 021</li>
                         <li>floria@company.com</li> 
+                        <li>Autor: Patryk Migała</li>
                     </ul>
                 </div>
                 </footer>

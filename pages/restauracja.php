@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="pl">
     <head>
@@ -50,7 +46,7 @@
                 <section class="sekcja sekcja1">
                     <h2>Nasza restauracja</h2>
                     <p class="tekst">
-                        Nasza restauracja to miejsce, gdzie tradycyjne smaki spotykają się z nowoczesnym podejściem do gotowania. Ciepłe i przyjazne wnętrza sprawiają, że można poczuć się tu swobodnie i wyjątkowo. Każde danie przygotowujemy starannie, dbając o to, by było nie tylko smaczne, ale i pięknie podane. To przestrzeń, w której łączymy dawny klimat z nowoczesnym stylem, tworząc niezapomniane doświadczenie dla naszych gości.
+                        Nasza hotelowa restauracja to miejsce, gdzie tradycyjne smaki spotykają się z nowoczesnym podejściem do gotowania. Ciepłe i przyjazne wnętrza sprawiają, że można poczuć się tu swobodnie i wyjątkowo. Każde danie przygotowujemy starannie, dbając o to, by było nie tylko smaczne, ale i pięknie podane. To przestrzeń, w której łączymy dawny klimat z nowoczesnym stylem, tworząc niezapomniane doświadczenie dla naszych gości.
                     </p>
                 </section>
 
@@ -110,7 +106,7 @@
                  <ul>
                     <li><a href="../index.php">Home</a></li>
                     <li><a href="./pokoje.php">Pokoje</a></li>
-                    <li><a href="./rezerwacja.php">Restauracja</a></li>
+                    <li><a href="./restauracja.php">Restauracja</a></li>
                     <li><a href="./kontakt.php">Kontakt</a></li>
                     <li><a href="./rezerwacja.php">Rezerwuj</a></li>
                 </ul>
@@ -129,6 +125,7 @@
                     <ul>
                         <li>Telefon 372 291 021</li>
                         <li>floria@company.com</li> 
+                        <li>Autor: Patryk Migała</li>
                     </ul>
                 </div>
                 </footer>

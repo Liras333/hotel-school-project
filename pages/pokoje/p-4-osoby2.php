@@ -11,7 +11,7 @@
         <title>Hotel Floria</title>
         <style>
             #header-container {
-                background-image: url('../../source/pokoje/pokoj-1-osoba1.png')
+                background-image: url('../../source/pokoje/pokoj-4-osoby2.png')
             }
         </style>
     </head>
@@ -31,7 +31,7 @@
                     </header>
                     <a href="../pokoje.php"><button class="back">&larr; Powrót</button></a>
                     <h1>
-                       Pokój 1 osobowy Riva Hiot
+                       Pokój 4 osobowy Deste Wur
                     </h1>
             </div>
 
@@ -39,27 +39,31 @@
                 <section class="sekcja sekcja1">
                         <div class="informacje1">
                             <div>
-                                <p class="cena">179zł/noc</p>
-                                <p class="osoby">maks. 1 osoba</p>
+                                <p class="cena">762zł/noc</p>
+                                <p class="osoby">maks. 4 osoby</p>
                             </div>
                             <div>
                                 <a href="../rezerwacja.php"><button>Zarezerwuj</button></a>
                             </div>
                         </div>
                         <div class="informacje3">
-                            <h3>Riva Hiot</h3>
-                            <p>Pokój hotelowy urządzony jest w rustykalnym stylu, z kamiennymi ścianami i drewnianym sufitem z widocznymi belkami, co nadaje mu przytulny i naturalny charakter. Wnętrze wyposażono w drewniane łóżko z prostą pościelą i kolorowymi poduszkami, biurko z krzesłem oraz niewielki stolik nocny z designerską lampką. Całość uzupełnia okno wpuszczające naturalne światło oraz delikatne oświetlenie ścienne i sufitowe, tworzące ciepłą atmosferę.</p>
+                            <h3>Deste Wur</h3>
+                            <p>Ten luksusowy pokój hotelowy łączy w sobie gotycki styl z nowoczesnym komfortem. Dwa duże łóżka z bogato rzeźbionymi zagłówkami, a także okazały kominek z ozdobnym portalem, stanowią serce tego wnętrza. Duże, łukowate okna z widokiem na okolicę wpuszczają do środka dużo światła, co dodatkowo podkreśla przestronność pokoju. Masywny, drewniany stół z krzesłami oraz miękkie fotele przy kominku tworzą idealne miejsce do spotkań i relaksu. Całość tworzy stylową i elegancką przestrzeń, która zachwyca detalami.</p>
                         </div>
                         <div class="informacje3">
                             <ul>
-                                <li>łóżko</li>
-                                <li>biurko i krzesło</li>
-                                <li>Widoki</li>
+                                <li>Podwójne łóżko x2</li>
+                                <li>Kominek</li>
+                                <li>Stoliczek z fotelami</li>
+                                <li>Stół jadalny</li>
+                                <li>Telewizor</li>                                
+                                <li>Widok</li>
                                 <li>Klimat</li>
                                 <li>Szafa</li>
                                 <li>Osobna łazienka</li>
+                                <li>Kuchnia</li>
                                 <li>Mini bar</li>
-                                <li>bezpłatne Wi-Fi</li>
+                                <li>Bezpłatne Wi-Fi</li>
                                 <li>Sejf</li>
                             </ul>
                         </div>

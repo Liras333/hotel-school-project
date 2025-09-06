@@ -11,7 +11,7 @@
         <title>Hotel Floria</title>
         <style>
             #header-container {
-                background-image: url('../../source/pokoje/pokoj-1-osoba1.png')
+                background-image: url('../../source/pokoje/pokoj-4-osoby1.png')
             }
         </style>
     </head>
@@ -31,7 +31,7 @@
                     </header>
                     <a href="../pokoje.php"><button class="back">&larr; Powrót</button></a>
                     <h1>
-                       Pokój 1 osobowy Riva Hiot
+                       Pokój 4 osobowy Prente Lar
                     </h1>
             </div>
 
@@ -39,27 +39,32 @@
                 <section class="sekcja sekcja1">
                         <div class="informacje1">
                             <div>
-                                <p class="cena">179zł/noc</p>
-                                <p class="osoby">maks. 1 osoba</p>
+                                <p class="cena">811zł/noc</p>
+                                <p class="osoby">maks. 4 osoby</p>
                             </div>
                             <div>
                                 <a href="../rezerwacja.php"><button>Zarezerwuj</button></a>
                             </div>
                         </div>
                         <div class="informacje3">
-                            <h3>Riva Hiot</h3>
-                            <p>Pokój hotelowy urządzony jest w rustykalnym stylu, z kamiennymi ścianami i drewnianym sufitem z widocznymi belkami, co nadaje mu przytulny i naturalny charakter. Wnętrze wyposażono w drewniane łóżko z prostą pościelą i kolorowymi poduszkami, biurko z krzesłem oraz niewielki stolik nocny z designerską lampką. Całość uzupełnia okno wpuszczające naturalne światło oraz delikatne oświetlenie ścienne i sufitowe, tworzące ciepłą atmosferę.</p>
+                            <h3>Prente Lar</h3>
+                            <p>Ten duży pokój przypomina wnętrze zamku i łączy w sobie komfort z bogatą estetyką. Widać w nim solidne drewniane belki na suficie oraz duży, kamienny kominek, który tworzy przytulną atmosferę. Znajdują się w nim dwa przestronne łóżka, a także stół jadalniany, co czyni go idealnym miejscem dla rodziny lub większej grupy. Duże okna wpuszczają mnóstwo światła, a stylowe dywany i zabytkowe mapy na ścianach dodają wnętrzu elegancji. Całość tworzy unikalne i luksusowe miejsce, idealne do relaks</p>
                         </div>
                         <div class="informacje3">
                             <ul>
-                                <li>łóżko</li>
-                                <li>biurko i krzesło</li>
-                                <li>Widoki</li>
+                                <li>Podwójne łóżko x2</li>
+                                <li>Kominek</li>
+                                <li>Stoliczek z fotelami</li>
+                                <li>Stół jadalny</li>
+                                <li>Telewizor</li>
+                                <li>Balkon</li>
+                                <li>Widok</li>
                                 <li>Klimat</li>
                                 <li>Szafa</li>
                                 <li>Osobna łazienka</li>
+                                <li>Mini Kuchnia</li>
                                 <li>Mini bar</li>
-                                <li>bezpłatne Wi-Fi</li>
+                                <li>Bezpłatne Wi-Fi</li>
                                 <li>Sejf</li>
                             </ul>
                         </div>
