@@ -74,3 +74,24 @@ div#header-container {
         opacity: 1
     }
 }
+
+@media (max-width: 1000px){ 
+    div#header-container{
+        background-size: 100%;
+    }
+
+    .sekcja{
+        width:auto;
+        padding:0;
+    }
+
+    .cena{
+        font-size: 1.8rem;
+    }
+
+    .informacje1  button {
+         padding: .7rem 1.6rem;
+        font-size: 1.1rem;
+
+    }
+}

@@ -64,6 +64,7 @@
                                 <li>Mini bar</li>
                                 <li>Bezpłatne Wi-Fi</li>
                                 <li>Sejf</li>
+                                 
                             </ul>
                         </div>
                 </section>
