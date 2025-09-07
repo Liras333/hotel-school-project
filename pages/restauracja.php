@@ -51,7 +51,7 @@
                 </section>
 
                 <section class="sekcja sekcja2">
-                    <img src="../source/restauracja.jpg"/>
+                    <img src="../source/restauracja2.png" alt="restauracja2 zdjęcie"/>
                     <div class="sekcja-opis">
                         <h2>Dwa style w jednym</h2>
                         <p>
@@ -132,5 +132,4 @@
     </body>
 
     <script src="../scripts/handleHeaders.js"></script>
-    <script src="../scripts/handleSlider.js"></script>
 </html>

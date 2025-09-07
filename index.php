@@ -56,7 +56,7 @@
                 </section>
 
                 <section class="sekcja sekcja2">
-                    <img src="./source/restauracja.jpg"/>
+                    <img src="./source/restauracja1.png" alt="resturacja zdjęcie"/>
                     <div class="sekcja-opis">
                         <p><i>Hotel floria</i></p>
                         <h2>Restauracja ze smakiem</h2>
@@ -91,7 +91,7 @@
                         <h2>Majestatyczne widoki lasu</h2>
                         <p> Tereny wokół hotelu oferują spokojne ścieżki idealne do spacerów, z bujną roślinnością i strumieniem przepływającym tuż obok. Goście mogą cieszyć się świeżym powietrzem i pięknem natury podczas relaksujących przechadzek po okolicznych lasach, podziwiając widoki na góry. To idealne miejsce na ucieczkę od zgiełku miasta i zanurzenie się w naturze.</p>
                     </div>
-                    <img src="./source/hotelViewForest.png"/>
+                    <img src="./source/hotelViewForest.png" alt="hotelViewForest"/>
                 </section>
 
                  <section class="sekcja sekcja5">
@@ -124,7 +124,7 @@
                                     Hotel Floria to nie tylko miejsce noclegu, ale przestrzeń, w której można poczuć ducha dawnych czasów. To idealne otoczenie dla osób szukających spokoju, inspiracji i niepowtarzalnego klimatu.
                                 </p>
                             </div>
-                              <img src="./source/las.png"/>
+                              <img src="./source/las.png" alt="las"/>
                         </div>
                     </div>
                     <div class="arrows">
@@ -134,7 +134,7 @@
                 </section>
 
                 <section class="sekcja sekcja6">
-                    <a href="">
+                    <a href="./pages/rezerwacja.php">
                         <button>
                             Zarezerwuj online!
                         </button>

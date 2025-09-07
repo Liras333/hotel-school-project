@@ -82,5 +82,4 @@
     </body>
 
     <script src="../scripts/handleHeaders.js"></script>
-    <script src="../scripts/handleSlider.js"></script>
 </html>

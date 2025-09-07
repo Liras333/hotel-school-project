@@ -98,5 +98,4 @@
                 </footer>
     </body>
 
-    <script src="../../scripts/handleSlider.js"></script>
 </html>

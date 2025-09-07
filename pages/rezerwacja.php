@@ -29,10 +29,10 @@
                     <img src="../source/logo.svg" alt="logo" />
                     <nav>
                         <ul>
-                            <li ><a href="../index.php">Hotel</a></li>
+                            <li><a href="../index.php">Hotel</a></li>
                             <li><a href="./pokoje.php">Pokoje</a></li>
                             <li><a href="./restauracja.php">Restauracja</a></li>
-                            <li ><a href="./kontakt.php">Kontakt</a></li>
+                            <li><a href="./kontakt.php">Kontakt</a></li>
                             <li class="active"><a href="./rezerwacja.php">Rezerwuj</a></li>
                         </ul>
                     </nav>
@@ -44,50 +44,76 @@
 
             <main>
                 <section>
-
                     <form method="post" action="../scripts/dodajRezerwacje.php">
-                        <p>
-                            <label for="od">Od</label>
-                            <input type="date" id="od">
-                            
-                            <label for="do">Do</label>
-                            <input type="date" id="do">
+                        <h3>Data wynajęcia</h3>
+                        <p class="date">
+                            <input type="date" name="odKiedy" required>
+                            -
+                            <input type="date"  name="doKiedy" required>
                         </p>
-                        <h3>Wybierz pokój</h3>
+                        <h3>Wybierz pokój i liczbę osób</h3>
                         <p>
-                            <label>Pokój</label>
                             <select>
-                                <option>Pokój 1 osobowy </option>
-                                <option>Pokój 1 osobowy </option>
-                                <option>Pokój 2 osobowy </option>
-                                <option>Pokój 2 osobowy </option>
-                                <option>Pokój 2 osobowy </option>
-                                <option>Pokój 2 osobowy </option>
-                                <option>Pokój 4 osobowy </option>
-                                <option>Pokój 4 osobowy </option>
-                                <option>Pokój 6 osobowy  - Family Room</option>
+                                <option>Pokój 1 osobowy Riva Hiot</option>
+                                <option>Pokój 1 osobowy Maria Rot</option>
+                                <option>Pokój 2 osobowy Stardust</option>
+                                <option>Pokój 2 osobowy Vesta Liva</option>
+                                <option>Pokój 2 osobowy Granda Hal</option>
+                                <option>Pokój 2 osobowy Frista Vel</option>
+                                <option>Pokój 4 osobowy Prente Lar</option>
+                                <option>Pokój 4 osobowy Deste Wur</option>
+                                <option>Pokój 6 osobowy Jil Fin</option>
                             </select>
                         </p>
+                        <div class="osoby">
+                            <p>
+                                <label for="dorosli">Dorośli</label>
+                                <input type="number" value="1" name="dorosli" required>
+                            </p>
+                            <p>
+                                <label for="dzieci">Dzieci</label>
+                                <input type="number" value="0" name="dzieci" required>
+                            </p>
+                        </div>
                         <h3>Dane kontaktowe</h3>
-                        <p>
-                            <label>Imie</label>
-                            <input type="text"/>
-                            <labe>Nazwisko</labe>
-                            <input type="text"/>
-                            <br />
-                            <label>Email</label>
-                            <input type="email"/>
-
-                        </p>
+                        <div class="dane-kontaktowe">
+                            <p>
+                                <label for="imie">Imie</label>
+                                <input type="text" id="imie" name="imie" placeholder="Imie" required/>
+                            </p>
+                            <p>
+                                <label for="nazwisko">Nazwisko</label>
+                                <input type="text" id="nazwisko" name="nazwisko" placeholder="Nazwisko" required/>
+                            </p>
+                            <p>
+                                <label for="telefon">Numer telefonu</label>
+                                <input type="text" id="telefon" name="telefon" placeholder="123 123 123" required/>
+                            </p>
+                            <p>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Email" required/>
+                            </p>
+                          </div>
                         <h3>Dodatkowe</h3>
                         <p>
-                            <input type="checkbox"/><label>Śniadanie - 50zł / os</label><br />
-                            <input type="checkbox"/><label>Parking całodobowy - 70zł</label><br />
-                            <input type="checkbox"/><label>Obsługa sprzątająca - 20zł</label><br />
-                            <input type="checkbox"/><label>Jaccuzzi - 60zł</label>
+                            <input type="checkbox" id="sniadanie"/>
+                            <label for="sniadanie"> Śniadanie - 50zł / os.</label>
+                            <br />
+
+                            <input type="checkbox" id="parking"/>
+                            <label for="parking"> Parking całodobowy - 70zł</label>
+                            <br />
+
+                            <input type="checkbox" id="sprzatanie"/>
+                            <label for="sprzatanie"> Obsługa sprzątająca - 20zł</label>
+                            <br />
+
+                            <input type="checkbox" id="jaccuzzi"/>
+                            <label for="jaccuzzi"> Jaccuzzi - 60zł</label>
                         </p>
 
-                        <p><input type="submit" value="Zarezerwuj pokój"></p>
+                        <p id="cena"><b>Cena ostateczna: </b></p>
+                        <input type="submit" value="Zatwierdź rezerwacje">
 
                     </form>
                 </section>
@@ -125,5 +151,4 @@
         
     </script>
     <script src="../scripts/handleHeaders.js"></script>
-    <script src="../scripts/handleSlider.js"></script>
 </html>
