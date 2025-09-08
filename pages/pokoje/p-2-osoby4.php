@@ -98,5 +98,6 @@
                 </div>
                 </footer>
     </body>
+    <script src="../../scripts/handleMenu.js"></script>
 
 </html>

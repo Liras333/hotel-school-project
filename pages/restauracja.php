@@ -132,4 +132,6 @@
     </body>
 
     <script src="../scripts/handleHeaders.js"></script>
+    <script src="../scripts/handleMenu.js"></script>
+
 </html>

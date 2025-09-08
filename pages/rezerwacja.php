@@ -12,6 +12,16 @@
     </head>
     <body>
             <div id="header-container" >
+                 <nav class="mobile-navigation">
+                    <ul>
+                        <li><img src="../source/logo.svg" /></li>
+                        <li><a href="../index.php">Hotel</a></li>
+                        <li><a href="./pokoje.php">Pokoje</a></li>
+                        <li><a href="./restauracja.php">Restauracja</a></li>
+                        <li><a href="./kontakt.php">Kontakt</a></li>
+                        <li class="active"><a href="./rezerwacja.php">Rezerwuj</a></li>
+                    </ul>
+                </nav>
                 <header id="header-in-scroll" class="hide-header">
                     <img src="../source/logo.svg" alt="logo" />
                     <nav>
@@ -151,4 +161,6 @@
         
     </script>
     <script src="../scripts/handleHeaders.js"></script>
+    <script src="../scripts/handleMenu.js"></script>
+
 </html>

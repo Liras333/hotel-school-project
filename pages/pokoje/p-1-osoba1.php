@@ -94,6 +94,7 @@
                     </ul>
                 </div>
                 </footer>
-    </body>
+            </body>
+            <script src="../../scripts/handleMenu.js"></script>
 
 </html>

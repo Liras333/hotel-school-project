@@ -16,6 +16,16 @@
     </head>
     <body>
             <div id="header-container" >
+                <nav class="mobile-navigation">
+                        <ul>
+                            <li><img src="./source/logo.svg" /></li>
+                            <li class="active"><a href="./index.php">Hotel</a></li>
+                            <li><a href="./pages/pokoje.php">Pokoje</a></li>
+                            <li><a href="./pages/restauracja.php">Restauracja</a></li>
+                            <li><a href="./pages/kontakt.php">Kontakt</a></li>
+                            <li><a href="./pages/rezerwacja.php">Rezerwuj</a></li>
+                        </ul>
+                </nav>
                 <header id="header-in-scroll" class="hide-header">
                     <img src="./source/logo.svg" alt="logo" />
                     <nav>
@@ -27,6 +37,8 @@
                             <li><a href="./pages/rezerwacja.php">Rezerwuj</a></li>
                         </ul>
                     </nav>
+
+                    <img src="./source/menu-icon.png" class="menu-icon" />
                     </header>
                     
                     <header id="header-initial" class="" >
@@ -41,10 +53,9 @@
                         </ul>
                     </nav>
                 </header>
-                    <h1>
+                <h1>
                         Hotel Floria - Wyśmienity pobyt w klimatycznym miejscu
-                    </h1>
-               
+                </h1>
             </div>
 
             <main>
@@ -173,4 +184,5 @@
 
     <script src="./scripts/handleHeaders.js"></script>
     <script src="./scripts/handleSlider.js"></script>
+    <script src="./scripts/handleMenu.js"></script>
 </html>
