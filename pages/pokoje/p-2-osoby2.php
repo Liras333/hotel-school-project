@@ -17,6 +17,16 @@
     </head>
     <body>
             <div id="header-container" >
+                 <nav class="mobile-navigation">
+                    <ul>
+                        <li><img src="../../source/logo.svg"/></li>
+                        <li><a href="../../index.php">Hotel</a></li>
+                        <li class="active"><a href="../pokoje.php">Pokoje</a></li>
+                        <li><a href="../restauracja.php">Restauracja</a></li>
+                        <li ><a href="../kontakt.php">Kontakt</a></li>
+                        <li><a href="../rezerwacja.php">Rezerwuj</a></li>
+                    </ul>
+                </nav>
                 <header id="header-in-scroll">
                     <img src="../../source/logo.svg" alt="logo" />
                     <nav>
@@ -28,7 +38,10 @@
                             <li><a href="../rezerwacja.php">Rezerwuj</a></li>
                         </ul>
                     </nav>
+
+                    <img src="../../source/menu-icon.png" class="menu-icon" />
                     </header>
+                    
                     <a href="../pokoje.php"><button class="back">&larr; Powrót</button></a>
                     <h1>
                        Pokój 2 osobowy Vesta Liva
@@ -63,6 +76,7 @@
                                 <li>Mini bar</li>
                                 <li>Bezpłatne Wi-Fi</li>
                                 <li>Sejf</li>
+                                <li>Darmowy Parking</li>
                             </ul>
                         </div>
                 </section>

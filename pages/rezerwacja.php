@@ -33,6 +33,9 @@
                             <li class="active"><a href="./rezerwacja.php">Rezerwuj</a></li>
                         </ul>
                     </nav>
+
+                    <img src="../source/menu-icon.png" class="menu-icon" />
+
                     </header>
                     
                     <header id="header-initial" class="" >
@@ -108,18 +111,7 @@
                         <p>
                             <input type="checkbox" id="sniadanie"/>
                             <label for="sniadanie"> Śniadanie - 50zł / os.</label>
-                            <br />
 
-                            <input type="checkbox" id="parking"/>
-                            <label for="parking"> Parking całodobowy - 70zł</label>
-                            <br />
-
-                            <input type="checkbox" id="sprzatanie"/>
-                            <label for="sprzatanie"> Obsługa sprzątająca - 20zł</label>
-                            <br />
-
-                            <input type="checkbox" id="jaccuzzi"/>
-                            <label for="jaccuzzi"> Jaccuzzi - 60zł</label>
                         </p>
 
                         <p id="cena"><b>Cena ostateczna: </b></p>
