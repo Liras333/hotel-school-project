@@ -100,8 +100,8 @@
                     <ul>
                         
                         <li><img src="../../source/logo.svg" alt="logo"></li>
-                        <li><a href="./regulamin.html">Regulamin</a></li>
-                        <li><a href="./faq.html">FAQ</a></li>
+                        <li><a href="../regulamin.html">Regulamin</a></li>
+                        <li><a href="../faq.html">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
