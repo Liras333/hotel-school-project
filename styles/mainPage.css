@@ -1,7 +1,7 @@
 @import url('./rootVariables.css');
 
-#header-container{
-    background-image: url('../source/pagesImg/hotel.jpg');
+#header-container {
+    background-image: url('../source/hotel.jpg');
 }
 
 .sekcja-opis {
@@ -239,8 +239,8 @@
         padding: .5rem
     }
 
-    .sekcja3 > div{
-        width:auto
+    .sekcja3>div {
+        width: auto
     }
 
 }

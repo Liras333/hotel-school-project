@@ -7,7 +7,7 @@
         <meta type="description" content="Popularny hotel o różnorodnych pokojach dla każdego" />
         <link rel="stylesheet" href="../../styles/globalStyles.css">
         <link rel="stylesheet" href="../../styles/pokoj.css">
-        <link rel="icon" href="../../source/logo.svg" />
+        <link rel="icon" href="../../source/logo.png" />
         <title>Hotel Floria</title>
         <style>
             #header-container {
@@ -19,7 +19,7 @@
             <div id="header-container" >
                  <nav class="mobile-navigation">
                     <ul>
-                        <li><img src="../../source/logo.svg"/></li>
+                        <li><img src="../../source/logo.png"/></li>
                         <li><a href="../../index.php">Hotel</a></li>
                         <li class="active"><a href="../pokoje.php">Pokoje</a></li>
                         <li><a href="../restauracja.php">Restauracja</a></li>
@@ -28,7 +28,7 @@
                     </ul>
                 </nav>
                 <header id="header-in-scroll">
-                    <img src="../../source/logo.svg" alt="logo" />
+                    <img src="../../source/logo.png" alt="logo" />
                     <nav>
                         <ul>
                             <li><a href="../../index.php">Hotel</a></li>
@@ -69,7 +69,7 @@
                                 <li>Kominek</li>
                                 <li>Stoliczek z fotelami</li>
                                 <li>Stół jadalny</li>
-                                <li>Telewizor</li>                                
+                                <li>Telewizor</li>
                                 <li>Widok</li>
                                 <li>Klimat</li>
                                 <li>Szafa</li>
@@ -99,7 +99,7 @@
                 <div>
                     <ul>
                         
-                        <li><img src="../../source/logo.svg" alt="logo"></li>
+                        <li><img src="../../source/logo.png" alt="logo"></li>
                         <li><a href="../regulamin.html">Regulamin</a></li>
                         <li><a href="../faq.html">FAQ</a></li>
                     </ul>

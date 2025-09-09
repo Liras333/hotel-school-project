@@ -7,14 +7,14 @@
         <meta type="description" content="Popularny hotel o różnorodnych pokojach dla każdego" />
         <link rel="stylesheet" href="../styles/globalStyles.css">
         <link rel="stylesheet" href="../styles/rezerwacja.css">
-        <link rel="icon" href="../source/logo.svg" />
+        <link rel="icon" href="../source/logo.png" />
         <title>Hotel Floria</title>
     </head>
     <body>
             <div id="header-container" >
                  <nav class="mobile-navigation">
                     <ul>
-                        <li><img src="../source/logo.svg" /></li>
+                        <li><img src="../source/logo.png" /></li>
                         <li><a href="../index.php">Hotel</a></li>
                         <li><a href="./pokoje.php">Pokoje</a></li>
                         <li><a href="./restauracja.php">Restauracja</a></li>
@@ -23,7 +23,7 @@
                     </ul>
                 </nav>
                 <header id="header-in-scroll" class="hide-header">
-                    <img src="../source/logo.svg" alt="logo" />
+                    <img src="../source/logo.png" alt="logo" />
                     <nav>
                         <ul>
                             <li><a href="../index.php">Hotel</a></li>
@@ -39,7 +39,7 @@
                     </header>
                     
                     <header id="header-initial" class="" >
-                    <img src="../source/logo.svg" alt="logo" />
+                    <img src="../source/logo.png" alt="logo" />
                     <nav>
                         <ul>
                             <li><a href="../index.php">Hotel</a></li>
@@ -100,11 +100,11 @@
                             </p>
                             <p>
                                 <label for="telefon">Numer telefonu</label>
-                                <input type="text" id="telefon" name="telefon" placeholder="123 123 123" required/>
+                                <input type="text" id="telefon" name="telefon" placeholder="123 456 789" required/>
                             </p>
                             <p>
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="Email" required/>
+                                <input type="email" id="email" name="email" placeholder="email@example.com" required/>
                             </p>
                           </div>
                         <h3>Dodatkowe</h3>
@@ -134,7 +134,7 @@
                 <div>
                     <ul>
                         
-                        <li><img src="../source/logo.svg" alt="logo"></li>
+                        <li><img src="../source/logo.png" alt="logo"></li>
                         <li><a href="./regulamin.html">Regulamin</a></li>
                         <li><a href="./faq.html">FAQ</a></li>
                     </ul>
