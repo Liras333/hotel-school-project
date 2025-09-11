@@ -60,43 +60,43 @@
                     <form method="post" action="../scripts/dodajRezerwacje.php">
                         <h3>Data wynajęcia</h3>
                         <p class="date">
-                            <input type="date" name="od_kiedy" required>
+                            <input type="date" id="od_kiedy" name="od_kiedy" onchange="obliczKoszt()" required>
                             -
-                            <input type="date"  name="do_kiedy" required>
+                            <input type="date" id="do_kiedy" name="do_kiedy" onchange="obliczKoszt()" required>
                         </p>
                         <h3>Wybierz pokój i liczbę osób</h3>
                         <p>
-                            <select name="pokoj">
-                                <option value="1">Pokój 1 osobowy Riva Hiot</option>
-                                <option value="2">Pokój 1 osobowy Maria Rot</option>
-                                <option value="3">Pokój 2 osobowy Stardust</option>
-                                <option value="4">Pokój 2 osobowy Vesta Liva</option>
-                                <option value="5">Pokój 2 osobowy Granda Hal</option>
-                                <option value="6">Pokój 2 osobowy Frista Vel</option>
-                                <option value="7">Pokój 4 osobowy Prente Lar</option>
-                                <option value="8">Pokój 4 osobowy Deste Wur</option>
-                                <option value="9">Pokój 6 osobowy Jil Fin</option>
+                            <select id="pokoj" name="pokoj" onchange="obliczKoszt()">
+                                <option value="1">Pokój 1 osobowy Riva Hiot - 179zł</option>
+                                <option value="2">Pokój 1 osobowy Maria Rot - 242zł</option>
+                                <option value="3">Pokój 2 osobowy Stardust - 541zł</option>
+                                <option value="4">Pokój 2 osobowy Vesta Liva - 345zł</option>
+                                <option value="5">Pokój 2 osobowy Granda Hal - 299zł</option>
+                                <option value="6">Pokój 2 osobowy Frista Vel - 378zł</option>
+                                <option value="7">Pokój 4 osobowy Prente Lar - 811zł</option>
+                                <option value="8">Pokój 4 osobowy Deste Wur - 762zł</option>
+                                <option value="9">Pokój 6 osobowy Jil Fin - 1024zł</option>
                             </select>
                         </p>
                         <div class="osoby">
                             <p>
                                 <label for="dorosli">Dorośli</label>
-                                <input type="number" value="1" name="dorosli" required>
+                                <input type="number" value="1" id="dorosli" name="dorosli" required>
                             </p>
                             <p>
                                 <label for="dzieci">Dzieci</label>
-                                <input type="number" value="0" name="dzieci" required>
+                                <input type="number" value="0" id="dzieci" name="dzieci"  required>
                             </p>
                         </div>
                         <h3>Dane kontaktowe</h3>
                         <div class="dane-kontaktowe">
                             <p>
                                 <label for="imie">Imie</label>
-                                <input type="text" id="imie" name="imie" placeholder="Imie" required/>
+                                <input type="text" id="imie" name="imie" placeholder="Imie" oninput="obliczKoszt()" required/>
                             </p>
                             <p>
                                 <label for="nazwisko">Nazwisko</label>
-                                <input type="text" id="nazwisko" name="nazwisko" placeholder="Nazwisko" required/>
+                                <input type="text" id="nazwisko" name="nazwisko" placeholder="Nazwisko" oninput="obliczKoszt()" required/>
                             </p>
                             <p>
                                 <label for="telefon">Numer telefonu</label>
@@ -109,12 +109,12 @@
                           </div>
                         <h3>Dodatkowe</h3>
                         <p>
-                            <input type="checkbox" id="sniadanie" name="czy_sniadanie"/>
-                            <label for="sniadanie"> Śniadanie - 50zł / os.</label>
+                            <input type="checkbox" id="czy_sniadanie" name="czy_sniadanie" onchange="obliczKoszt()"/>
+                            <label for="czy_sniadanie"> Śniadanie - 50zł / os.</label>
 
                         </p>
 
-                        <p id="cena"><b>Cena ostateczna: </b></p>
+                        <p id="koszt"><b>Cena ostateczna: </b>0 zł</p>
                         <input type="submit" value="Zatwierdź rezerwacje">
 
                     </form>
@@ -154,5 +154,6 @@
     </script>
     <script src="../scripts/handleHeaders.js"></script>
     <script src="../scripts/handleMenu.js"></script>
+    <script  src="../scripts/obliczKoszt.js"></script>
 
 </html>

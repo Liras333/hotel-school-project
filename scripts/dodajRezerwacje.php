@@ -45,8 +45,8 @@ else{
             echo "Error: ".$connect->error;
         }
 
+        $resultPokoj->close();
         $connect->close();
-
     } else {
         echo "Error: Pokój nie istnieje.";
         $resultPokoj->close();
