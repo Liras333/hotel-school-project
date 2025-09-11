@@ -60,22 +60,22 @@
                     <form method="post" action="../scripts/dodajRezerwacje.php">
                         <h3>Data wynajęcia</h3>
                         <p class="date">
-                            <input type="date" name="odKiedy" required>
+                            <input type="date" name="od_kiedy" required>
                             -
-                            <input type="date"  name="doKiedy" required>
+                            <input type="date"  name="do_kiedy" required>
                         </p>
                         <h3>Wybierz pokój i liczbę osób</h3>
                         <p>
-                            <select>
-                                <option>Pokój 1 osobowy Riva Hiot</option>
-                                <option>Pokój 1 osobowy Maria Rot</option>
-                                <option>Pokój 2 osobowy Stardust</option>
-                                <option>Pokój 2 osobowy Vesta Liva</option>
-                                <option>Pokój 2 osobowy Granda Hal</option>
-                                <option>Pokój 2 osobowy Frista Vel</option>
-                                <option>Pokój 4 osobowy Prente Lar</option>
-                                <option>Pokój 4 osobowy Deste Wur</option>
-                                <option>Pokój 6 osobowy Jil Fin</option>
+                            <select name="pokoj">
+                                <option value="1">Pokój 1 osobowy Riva Hiot</option>
+                                <option value="2">Pokój 1 osobowy Maria Rot</option>
+                                <option value="3">Pokój 2 osobowy Stardust</option>
+                                <option value="4">Pokój 2 osobowy Vesta Liva</option>
+                                <option value="5">Pokój 2 osobowy Granda Hal</option>
+                                <option value="6">Pokój 2 osobowy Frista Vel</option>
+                                <option value="7">Pokój 4 osobowy Prente Lar</option>
+                                <option value="8">Pokój 4 osobowy Deste Wur</option>
+                                <option value="9">Pokój 6 osobowy Jil Fin</option>
                             </select>
                         </p>
                         <div class="osoby">
@@ -109,7 +109,7 @@
                           </div>
                         <h3>Dodatkowe</h3>
                         <p>
-                            <input type="checkbox" id="sniadanie"/>
+                            <input type="checkbox" id="sniadanie" name="czy_sniadanie"/>
                             <label for="sniadanie"> Śniadanie - 50zł / os.</label>
 
                         </p>
