@@ -100,7 +100,7 @@
                             </p>
                             <p>
                                 <label for="telefon">Numer telefonu</label>
-                                <input type="text" id="telefon" name="telefon" placeholder="123 456 789" required/>
+                                <input type="text" id="telefon" name="telefon" placeholder="123456789" required/>
                             </p>
                             <p>
                                 <label for="email">Email</label>

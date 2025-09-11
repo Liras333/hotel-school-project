@@ -70,3 +70,10 @@ dzieci.addEventListener("input", function(){
     if( dzieci.value < 0 ) dzieci.value = "0";
     if( dzieci.value > wybranyPokoj.miejsca - dorosli.value - 1 ) dzieci.value = wybranyPokoj.miejsca - dorosli.value ;
 });
+
+//ustawianie doroslych i dzieci do stanu początkowego przy zmianie pokoju
+const pokoj = document.getElementById("pokoj");
+pokoj.addEventListener("change", function(){
+  dorosli.value = 1;
+  dzieci.value = 0;  
+})
