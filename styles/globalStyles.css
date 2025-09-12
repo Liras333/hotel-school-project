@@ -195,6 +195,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 
+    
+
     div {
         padding: 1rem;
     }
@@ -210,11 +212,15 @@ footer {
             line-height: 2rem;
             color: var(--bgColorWhite);
 
+            
         }
 
         a {
             color: var(--bgColorWhite);
             text-decoration: none;
+            &:hover {
+                color: rgb(155, 155, 155);
+            }
         }
 
     }

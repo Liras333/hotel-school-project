@@ -5,3 +5,8 @@
 ol{
     line-height: 2.5rem;
 }
+
+section{
+    width:40rem;
+    margin: 0 auto;
+}

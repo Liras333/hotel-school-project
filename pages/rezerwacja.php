@@ -58,7 +58,7 @@
             <main>
                 <section>
                     <form method="post" action="../scripts/dodajRezerwacje.php">
-                        <h3>Data wynajęcia</h3>
+                        <h3>Data wynajęcia<span class="wymagane">*</span></h3>
                         <p class="date">
                             <input type="date" id="od_kiedy" name="od_kiedy" onchange="obliczKoszt()" required>
                             -
@@ -66,7 +66,7 @@
                             <br />
                             <span  class="error"></span>
                         </p>
-                        <h3>Wybierz pokój i liczbę osób</h3>
+                        <h3>Wybierz pokój i liczbę osób<span class="wymagane">*</span></h3>
                         <p>
                             <select id="pokoj" name="pokoj" onchange="obliczKoszt()">
                                 <option value="1">Pokój 1 osobowy Riva Hiot - 179zł</option>
@@ -90,7 +90,7 @@
                                 <input type="number" value="0" id="dzieci" name="dzieci"  required>
                             </p>
                         </div>
-                        <h3>Dane kontaktowe</h3>
+                        <h3>Dane kontaktowe<span class="wymagane">*</span></h3>
                         <div class="dane-kontaktowe">
                             <p>
                                 <label for="imie">Imie</label>

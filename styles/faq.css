@@ -1,3 +1,27 @@
+@import url('./rootVariables.css');
+
 #header-container{
     background-image: url('../source/recepcja.png');
+}
+
+
+section{
+    margin: 0 auto;
+    width:40rem;
+}
+
+details{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid var(--bgColorGrey2) ;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    section{
+        width: auto;
+    }
 }

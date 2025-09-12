@@ -67,6 +67,9 @@ input[type="date"] {
     border: 1px solid var(--bgColorGrey2);
 }
 
+input[type="checkbox"]{
+    accent-color: rgb(182, 0, 0);
+}
 
 input[type="email"] {
     width: 100%
@@ -95,4 +98,8 @@ input[disabled="true"] {
 .error {
     color: red;
     font-size: 0.9rem;
+}
+
+.wymagane {
+    color: red;
 }

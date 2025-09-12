@@ -97,6 +97,11 @@
 }
 
 @media (max-width:540px) {
+    .sekcja1 .tekst{
+        width: 90%;
+        padding: 1rem 
+    }
+
  .sekcja2 img{
         width:20rem;
     }
