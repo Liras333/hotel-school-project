@@ -63,6 +63,8 @@
                             <input type="date" id="od_kiedy" name="od_kiedy" onchange="obliczKoszt()" required>
                             -
                             <input type="date" id="do_kiedy" name="do_kiedy" onchange="obliczKoszt()" required>
+                            <br />
+                            <span  class="error"></span>
                         </p>
                         <h3>Wybierz pokój i liczbę osób</h3>
                         <p>
@@ -115,7 +117,7 @@
                         </p>
 
                         <p id="koszt"><b>Cena ostateczna: </b>0 zł</p>
-                        <input type="submit" value="Zatwierdź rezerwacje">
+                        <input type="submit" disabled="true" id="przycisk" value="Zatwierdź rezerwacje">
 
                     </form>
                 </section>

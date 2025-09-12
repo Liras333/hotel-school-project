@@ -1,16 +1,18 @@
 const kosztP = document.getElementById("koszt");
+const przycisk = document.getElementById("przycisk");
+const error = document.querySelector(".error");
 
 //obiekt pokoi
 const pokojeArr = [
-    { id: 1, nazwa: "Pokój 1 osobowy Riva Hiot",miejsca:1, cena: 179 },
-    { id: 2, nazwa: "Pokój 1 osobowy Maria Rot", miejsca:1, cena: 242 },
-    { id: 3, nazwa: "Pokój 2 osobowy Stardust", miejsca:2, cena: 541 },
-    { id: 4, nazwa: "Pokój 2 osobowy Vesta Liva", miejsca:2, cena: 345 },
-    { id: 5, nazwa: "Pokój 2 osobowy Granda Hal", miejsca:2, cena: 299 },
-    { id: 6, nazwa: "Pokój 2 osobowy Frista Vel", miejsca:2, cena: 378 },
-    { id: 7, nazwa: "Pokój 4 osobowy Prente Lar", miejsca:4,  cena: 811 },
-    { id: 8, nazwa: "Pokój 4 osobowy Deste Wur", miejsca:4, cena: 762 },
-    { id: 9, nazwa: "Pokój 6 osobowy Jil Fin", miejsca:6, cena: 1024 }
+    { id: 1, nazwa: "Pokój 1 osobowy Riva Hiot", miejsca: 1, cena: 179 },
+    { id: 2, nazwa: "Pokój 1 osobowy Maria Rot", miejsca: 1, cena: 242 },
+    { id: 3, nazwa: "Pokój 2 osobowy Stardust", miejsca: 2, cena: 541 },
+    { id: 4, nazwa: "Pokój 2 osobowy Vesta Liva", miejsca: 2, cena: 345 },
+    { id: 5, nazwa: "Pokój 2 osobowy Granda Hal", miejsca: 2, cena: 299 },
+    { id: 6, nazwa: "Pokój 2 osobowy Frista Vel", miejsca: 2, cena: 378 },
+    { id: 7, nazwa: "Pokój 4 osobowy Prente Lar", miejsca: 4, cena: 811 },
+    { id: 8, nazwa: "Pokój 4 osobowy Deste Wur", miejsca: 4, cena: 762 },
+    { id: 9, nazwa: "Pokój 6 osobowy Jil Fin", miejsca: 6, cena: 1024 }
 ]
 
 //obliczanie kosztu
@@ -23,21 +25,34 @@ function obliczKoszt() {
     const dorosli = document.getElementById("dorosli");
     const dzieci = document.getElementById("dzieci");
     const czy_sniadanie = document.getElementById("czy_sniadanie");
-    const wybranyPokoj = pokojeArr.find(pokojObj=> pokojObj.id === parseInt(pokoj.value));
-
+    const wybranyPokoj = pokojeArr.find(pokojObj => pokojObj.id === parseInt(pokoj.value));
 
     //sprawdzanie czy pola są puste
     if (!od_kiedy.value || !do_kiedy.value || !pokoj.value || !dorosli.value || !dzieci.value) {
         kosztP.innerHTML = "<b>Cena ostateczna: </b>0 zł";
     }
 
-    // sprawdzanie czy data nie jest mniejsza niż  początkowa
+    // sprawdzanie czy data nie jest mniejsza niż pierwsza
+    // sprawdzanie czy data jest wybrana
+    // sprawdzanie cy data nie jest mniejsza niż aktualna data
+    // ( setHour(0,0,0,0) potrzebne by porównać tylko daty bez godzin, ponieważ data z inputa nie ma godzin )
     const data1 = new Date(od_kiedy.value);
     const data2 = new Date(do_kiedy.value);
 
-    if(data1 >= data2 || data1 == "Invalid Date" || data2 == "Invalid Date"){ 
+    if (data1 >= data2
+        || data1 == "Invalid Date"
+        || data2 == "Invalid Date"
+        || data1 < new Date().setHours(0, 0, 0, 0)
+        || data2 < new Date().setHours(0, 0, 0, 0)
+    ) {
         kosztP.innerHTML = "<b>Cena ostateczna: </b>0 zł";
+        error.textContent = "Nieprawidłowa data";
+        przycisk.setAttribute("disabled", "true");
         return;
+    }
+    else {
+        error.textContent = "";
+        przycisk.removeAttribute('disabled');
     }
 
     //obliczanie kosztu
@@ -55,25 +70,29 @@ function obliczKoszt() {
 const dorosli = document.getElementById("dorosli");
 const dzieci = document.getElementById("dzieci");
 
-dorosli.addEventListener("input", function(){
+dorosli.addEventListener("input", function () {
     const pokoj = document.getElementById("pokoj");
-    const wybranyPokoj = pokojeArr.find(pokojObj=> pokojObj.id === parseInt(pokoj.value));
+    const wybranyPokoj = pokojeArr.find(pokojObj => pokojObj.id === parseInt(pokoj.value));
 
-    if( dorosli.value < 1 ) dorosli.value = "1";
-    if( dorosli.value > wybranyPokoj.miejsca - dzieci.value) dorosli.value = wybranyPokoj.miejsca - dzieci.value;
+    if (dorosli.value < 1) dorosli.value = "1";
+    if (dorosli.value > wybranyPokoj.miejsca - dzieci.value) dorosli.value = wybranyPokoj.miejsca - dzieci.value;
+
+    obliczKoszt()
 });
 
-dzieci.addEventListener("input", function(){
+dzieci.addEventListener("input", function () {
     const pokoj = document.getElementById("pokoj");
-    const wybranyPokoj = pokojeArr.find(pokojObj=> pokojObj.id === parseInt(pokoj.value));
+    const wybranyPokoj = pokojeArr.find(pokojObj => pokojObj.id === parseInt(pokoj.value));
 
-    if( dzieci.value < 0 ) dzieci.value = "0";
-    if( dzieci.value > wybranyPokoj.miejsca - dorosli.value - 1 ) dzieci.value = wybranyPokoj.miejsca - dorosli.value ;
+    if (dzieci.value < 0) dzieci.value = "0";
+    if (dzieci.value > wybranyPokoj.miejsca - dorosli.value - 1) dzieci.value = wybranyPokoj.miejsca - dorosli.value;
+
+    obliczKoszt()
 });
 
 //ustawianie doroslych i dzieci do stanu początkowego przy zmianie pokoju
 const pokoj = document.getElementById("pokoj");
-pokoj.addEventListener("change", function(){
-  dorosli.value = 1;
-  dzieci.value = 0;  
+pokoj.addEventListener("change", function () {
+    dorosli.value = 1;
+    dzieci.value = 0;
 })

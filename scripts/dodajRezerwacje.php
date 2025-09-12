@@ -32,11 +32,14 @@ else{
         $koszt = $cenaPokoju * $iloscDni + $sniadanie;
 
         //wstawianie danych do bazy
-        if($connect->query("INSERT INTO osoby VALUES (NULL, '$imie', '$nazwisko', '$telefon', '$email',  current_timestamp())")){
+        if($connect->query("INSERT INTO osoby VALUES (NULL, '$imie', '$nazwisko', '$email', '$telefon',  current_timestamp())")){
             $id_osoby = $connect->insert_id;
 
             if($connect->query("INSERT INTO rezerwacja VALUES (NULL, '$id_osoby', '$pokoj', '$od_kiedy', '$do_kiedy', '$dorosli', '$dzieci', '$czy_sniadanie', '$koszt' ,current_timestamp())")){
-                echo "done";
+                header('Location: ../pages/platnoscDokonana.php');
+
+                $connect->close();
+                exit();
             } else {
                 echo "Error: ".$connect->error;
             }
