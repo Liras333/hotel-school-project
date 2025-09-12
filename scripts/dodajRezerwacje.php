@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $connect = @new mysqli('localhost', 'root', '', 'hotel');
 
@@ -36,10 +37,11 @@ else{
             $id_osoby = $connect->insert_id;
 
             if($connect->query("INSERT INTO rezerwacja VALUES (NULL, '$id_osoby', '$pokoj', '$od_kiedy', '$do_kiedy', '$dorosli', '$dzieci', '$czy_sniadanie', '$koszt' ,current_timestamp())")){
+                $_SESSION['zarezerwowane'] = true;
                 header('Location: ../pages/platnoscDokonana.php');
-
                 $connect->close();
                 exit();
+
             } else {
                 echo "Error: ".$connect->error;
             }

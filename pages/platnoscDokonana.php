@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['zarezerwowane'])){
+        header('Location: ./rezerwacja.php');
+        exit();
+    }
+    unset($_SESSION['zarezerwowane']);
+?>
+
 <!DOCTYPE html>
 <html lang="pl">
     <head>
@@ -6,7 +15,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta type="description" content="Popularny hotel o różnorodnych pokojach dla każdego" />
         <link rel="stylesheet" href="../styles/globalStyles.css">
-        <link rel="stylesheet" href="../styles/pokoj.css">
         <link rel="stylesheet" href="../styles/platnoscDokonana.css">
         <link rel="icon" href="../source/logo.png" />
         <title>Hotel Floria</title>
