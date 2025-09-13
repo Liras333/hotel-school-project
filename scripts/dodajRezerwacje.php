@@ -10,7 +10,7 @@ else{
     $od_kiedy = $_POST['od_kiedy'];
     $do_kiedy = $_POST['do_kiedy'];
     $pokoj = $_POST['pokoj'];
-    $czy_sniadanie = $_POST['czy_sniadanie'] ? 1 : 0;
+    @$czy_sniadanie = $_POST['czy_sniadanie'] ? 1 : 0;
     $dorosli = $_POST['dorosli'];
     $dzieci = $_POST['dzieci'];
 
@@ -19,8 +19,9 @@ else{
     $email = $_POST['email'];
     $telefon = $_POST['telefon'];
 
+    
     //pobranie pokoju z bazy
-    $resultPokoj = $connect->query("SELECT * FROM pokoje WHERE id_pokoju = '$pokoj'");
+    $resultPokoj = @$connect->query("SELECT * FROM pokoje WHERE id_pokoju = '$pokoj'");
     if($resultPokoj->num_rows > 0){
         $row = $resultPokoj->fetch_assoc();
 
@@ -33,10 +34,10 @@ else{
         $koszt = $cenaPokoju * $iloscDni + $sniadanie;
 
         //wstawianie danych do bazy
-        if($connect->query("INSERT INTO osoby VALUES (NULL, '$imie', '$nazwisko', '$email', '$telefon',  current_timestamp())")){
+        if(@$connect->query("INSERT INTO osoby VALUES (NULL, '$imie', '$nazwisko', '$email', '$telefon',  current_timestamp())")){
             $id_osoby = $connect->insert_id;
 
-            if($connect->query("INSERT INTO rezerwacja VALUES (NULL, '$id_osoby', '$pokoj', '$od_kiedy', '$do_kiedy', '$dorosli', '$dzieci', '$czy_sniadanie', '$koszt' ,current_timestamp())")){
+            if(@$connect->query("INSERT INTO rezerwacja VALUES (NULL, '$id_osoby', '$pokoj', '$od_kiedy', '$do_kiedy', '$dorosli', '$dzieci', '$czy_sniadanie', '$koszt' ,current_timestamp())")){
                 $_SESSION['zarezerwowane'] = true;
                 header('Location: ../pages/platnoscDokonana.php');
                 $connect->close();
