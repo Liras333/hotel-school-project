@@ -171,7 +171,7 @@ body {
 
 .hide-header {
     opacity: 0;
-    transform: translateY(-50dvh);
+    transform: translateY(-260%);
 }
 
 main {
